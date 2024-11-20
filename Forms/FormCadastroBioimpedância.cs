@@ -3,14 +3,16 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace BS_Projeto
+namespace BodyShape_TI.Forms
 {
-    public partial class FormCadastroAluno : Form
+    public partial class FormCadastroBioimpedância : Form
     {
-        public FormCadastroAluno()
+        public FormCadastroBioimpedância()
         {
             InitializeComponent();
         }

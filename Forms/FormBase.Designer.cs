@@ -29,261 +29,278 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormBase));
-            this.pnlnavegacao = new System.Windows.Forms.Panel();
-            this.pnlSair = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.lblSair = new System.Windows.Forms.Label();
-            this.pnlBotao4 = new System.Windows.Forms.Panel();
-            this.pnlBtnAulas = new System.Windows.Forms.Panel();
-            this.btnPlanos = new System.Windows.Forms.Button();
-            this.pnlBotao3 = new System.Windows.Forms.Panel();
-            this.pnlBtnPlanos = new System.Windows.Forms.Panel();
-            this.btnProfissionais = new System.Windows.Forms.Button();
-            this.pnlBotao2 = new System.Windows.Forms.Panel();
-            this.pnlBtnProf = new System.Windows.Forms.Panel();
-            this.btnAlunos = new System.Windows.Forms.Button();
-            this.pnlBotao1 = new System.Windows.Forms.Panel();
-            this.pnlBtnAlunos = new System.Windows.Forms.Panel();
-            this.btnPerfil = new System.Windows.Forms.Button();
-            this.pnlLogo = new System.Windows.Forms.Panel();
-            this.pictureLogo = new System.Windows.Forms.PictureBox();
-            this.pnlnavegacao.SuspendLayout();
-            this.pnlSair.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.pnlBotao4.SuspendLayout();
-            this.pnlBotao3.SuspendLayout();
-            this.pnlBotao2.SuspendLayout();
-            this.pnlBotao1.SuspendLayout();
-            this.pnlLogo.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureLogo)).BeginInit();
-            this.SuspendLayout();
+            pnlnavegacao = new Panel();
+            pnlSair = new Panel();
+            pictureBox1 = new PictureBox();
+            lblSair = new Label();
+            pnlBotao4 = new Panel();
+            pnlBtnAulas = new Panel();
+            btnPlanos = new Button();
+            pnlBotao3 = new Panel();
+            pnlBtnPlanos = new Panel();
+            btnProfissionais = new Button();
+            pnlBotao2 = new Panel();
+            pnlBtnProf = new Panel();
+            btnAlunos = new Button();
+            pnlBotao1 = new Panel();
+            pnlBtnAlunos = new Panel();
+            btnPerfil = new Button();
+            pnlLogo = new Panel();
+            pictureLogo = new PictureBox();
+            pnlnavegacao.SuspendLayout();
+            pnlSair.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            pnlBotao4.SuspendLayout();
+            pnlBotao3.SuspendLayout();
+            pnlBotao2.SuspendLayout();
+            pnlBotao1.SuspendLayout();
+            pnlLogo.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureLogo).BeginInit();
+            SuspendLayout();
             // 
             // pnlnavegacao
             // 
-            this.pnlnavegacao.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
-            this.pnlnavegacao.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(44)))), ((int)(((byte)(50)))));
-            this.pnlnavegacao.Controls.Add(this.pnlSair);
-            this.pnlnavegacao.Controls.Add(this.pnlBotao4);
-            this.pnlnavegacao.Controls.Add(this.pnlBotao3);
-            this.pnlnavegacao.Controls.Add(this.pnlBotao2);
-            this.pnlnavegacao.Controls.Add(this.pnlBotao1);
-            this.pnlnavegacao.Controls.Add(this.pnlLogo);
-            this.pnlnavegacao.Location = new System.Drawing.Point(-3, -3);
-            this.pnlnavegacao.Name = "pnlnavegacao";
-            this.pnlnavegacao.Size = new System.Drawing.Size(141, 626);
-            this.pnlnavegacao.TabIndex = 3;
+            pnlnavegacao.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            pnlnavegacao.BackColor = Color.FromArgb(36, 44, 50);
+            pnlnavegacao.Controls.Add(pnlSair);
+            pnlnavegacao.Controls.Add(pnlBotao4);
+            pnlnavegacao.Controls.Add(pnlBotao3);
+            pnlnavegacao.Controls.Add(pnlBotao2);
+            pnlnavegacao.Controls.Add(pnlBotao1);
+            pnlnavegacao.Controls.Add(pnlLogo);
+            pnlnavegacao.Location = new Point(-3, -4);
+            pnlnavegacao.Margin = new Padding(3, 4, 3, 4);
+            pnlnavegacao.MinimumSize = new Size(141, 855);
+            pnlnavegacao.Name = "pnlnavegacao";
+            pnlnavegacao.Size = new Size(141, 855);
+            pnlnavegacao.TabIndex = 3;
             // 
             // pnlSair
             // 
-            this.pnlSair.Controls.Add(this.pictureBox1);
-            this.pnlSair.Controls.Add(this.lblSair);
-            this.pnlSair.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pnlSair.Location = new System.Drawing.Point(15, 556);
-            this.pnlSair.Name = "pnlSair";
-            this.pnlSair.Size = new System.Drawing.Size(114, 55);
-            this.pnlSair.TabIndex = 15;
-            this.pnlSair.Click += new System.EventHandler(this.pnlSair_Click);
+            pnlSair.Controls.Add(pictureBox1);
+            pnlSair.Controls.Add(lblSair);
+            pnlSair.Cursor = Cursors.Hand;
+            pnlSair.Location = new Point(9, 766);
+            pnlSair.Margin = new Padding(3, 4, 3, 4);
+            pnlSair.Name = "pnlSair";
+            pnlSair.Size = new Size(114, 69);
+            pnlSair.TabIndex = 15;
+            pnlSair.Click += pnlSair_Click;
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(7, 11);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(44, 33);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pnlSair_Click);
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
+            pictureBox1.Location = new Point(7, 14);
+            pictureBox1.Margin = new Padding(3, 4, 3, 4);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(44, 41);
+            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox1.TabIndex = 1;
+            pictureBox1.TabStop = false;
+            pictureBox1.Click += pnlSair_Click;
             // 
             // lblSair
             // 
-            this.lblSair.AutoSize = true;
-            this.lblSair.Font = new System.Drawing.Font("Impact", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSair.ForeColor = System.Drawing.SystemColors.Control;
-            this.lblSair.Location = new System.Drawing.Point(47, 10);
-            this.lblSair.Name = "lblSair";
-            this.lblSair.Size = new System.Drawing.Size(60, 35);
-            this.lblSair.TabIndex = 0;
-            this.lblSair.Text = "Sair";
-            this.lblSair.Click += new System.EventHandler(this.pnlSair_Click);
+            lblSair.AutoSize = true;
+            lblSair.Font = new Font("Impact", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lblSair.ForeColor = SystemColors.Control;
+            lblSair.Location = new Point(47, 12);
+            lblSair.Name = "lblSair";
+            lblSair.Size = new Size(60, 35);
+            lblSair.TabIndex = 0;
+            lblSair.Text = "Sair";
+            lblSair.Click += pnlSair_Click;
             // 
             // pnlBotao4
             // 
-            this.pnlBotao4.Controls.Add(this.pnlBtnAulas);
-            this.pnlBotao4.Controls.Add(this.btnPlanos);
-            this.pnlBotao4.Location = new System.Drawing.Point(3, 275);
-            this.pnlBotao4.Name = "pnlBotao4";
-            this.pnlBotao4.Size = new System.Drawing.Size(138, 45);
-            this.pnlBotao4.TabIndex = 4;
+            pnlBotao4.Controls.Add(pnlBtnAulas);
+            pnlBotao4.Controls.Add(btnPlanos);
+            pnlBotao4.Location = new Point(3, 344);
+            pnlBotao4.Margin = new Padding(3, 4, 3, 4);
+            pnlBotao4.Name = "pnlBotao4";
+            pnlBotao4.Size = new Size(138, 56);
+            pnlBotao4.TabIndex = 4;
             // 
             // pnlBtnAulas
             // 
-            this.pnlBtnAulas.BackColor = System.Drawing.Color.Aquamarine;
-            this.pnlBtnAulas.Location = new System.Drawing.Point(131, 0);
-            this.pnlBtnAulas.Name = "pnlBtnAulas";
-            this.pnlBtnAulas.Size = new System.Drawing.Size(10, 44);
-            this.pnlBtnAulas.TabIndex = 10;
-            this.pnlBtnAulas.Visible = false;
+            pnlBtnAulas.BackColor = Color.Aquamarine;
+            pnlBtnAulas.Location = new Point(131, 0);
+            pnlBtnAulas.Margin = new Padding(3, 4, 3, 4);
+            pnlBtnAulas.Name = "pnlBtnAulas";
+            pnlBtnAulas.Size = new Size(10, 55);
+            pnlBtnAulas.TabIndex = 10;
+            pnlBtnAulas.Visible = false;
             // 
             // btnPlanos
             // 
-            this.btnPlanos.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnPlanos.FlatAppearance.BorderSize = 0;
-            this.btnPlanos.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnPlanos.Font = new System.Drawing.Font("Impact", 13.8F);
-            this.btnPlanos.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnPlanos.Location = new System.Drawing.Point(12, 4);
-            this.btnPlanos.Name = "btnPlanos";
-            this.btnPlanos.Size = new System.Drawing.Size(95, 36);
-            this.btnPlanos.TabIndex = 3;
-            this.btnPlanos.Text = "Planos";
-            this.btnPlanos.UseVisualStyleBackColor = true;
-            this.btnPlanos.Click += new System.EventHandler(this.btnFichasAluno_Click);
+            btnPlanos.Cursor = Cursors.Hand;
+            btnPlanos.FlatAppearance.BorderSize = 0;
+            btnPlanos.FlatStyle = FlatStyle.Popup;
+            btnPlanos.Font = new Font("Impact", 13.8F);
+            btnPlanos.ForeColor = SystemColors.ButtonHighlight;
+            btnPlanos.Location = new Point(12, 5);
+            btnPlanos.Margin = new Padding(3, 4, 3, 4);
+            btnPlanos.Name = "btnPlanos";
+            btnPlanos.Size = new Size(95, 45);
+            btnPlanos.TabIndex = 3;
+            btnPlanos.Text = "Planos";
+            btnPlanos.UseVisualStyleBackColor = true;
+            btnPlanos.Click += btnFichasAluno_Click;
             // 
             // pnlBotao3
             // 
-            this.pnlBotao3.Controls.Add(this.pnlBtnPlanos);
-            this.pnlBotao3.Controls.Add(this.btnProfissionais);
-            this.pnlBotao3.Location = new System.Drawing.Point(3, 230);
-            this.pnlBotao3.Name = "pnlBotao3";
-            this.pnlBotao3.Size = new System.Drawing.Size(138, 45);
-            this.pnlBotao3.TabIndex = 3;
+            pnlBotao3.Controls.Add(pnlBtnPlanos);
+            pnlBotao3.Controls.Add(btnProfissionais);
+            pnlBotao3.Location = new Point(3, 288);
+            pnlBotao3.Margin = new Padding(3, 4, 3, 4);
+            pnlBotao3.Name = "pnlBotao3";
+            pnlBotao3.Size = new Size(138, 56);
+            pnlBotao3.TabIndex = 3;
             // 
             // pnlBtnPlanos
             // 
-            this.pnlBtnPlanos.BackColor = System.Drawing.Color.Aquamarine;
-            this.pnlBtnPlanos.Location = new System.Drawing.Point(131, -1);
-            this.pnlBtnPlanos.Name = "pnlBtnPlanos";
-            this.pnlBtnPlanos.Size = new System.Drawing.Size(10, 44);
-            this.pnlBtnPlanos.TabIndex = 12;
-            this.pnlBtnPlanos.Visible = false;
+            pnlBtnPlanos.BackColor = Color.Aquamarine;
+            pnlBtnPlanos.Location = new Point(131, -1);
+            pnlBtnPlanos.Margin = new Padding(3, 4, 3, 4);
+            pnlBtnPlanos.Name = "pnlBtnPlanos";
+            pnlBtnPlanos.Size = new Size(10, 55);
+            pnlBtnPlanos.TabIndex = 12;
+            pnlBtnPlanos.Visible = false;
             // 
             // btnProfissionais
             // 
-            this.btnProfissionais.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnProfissionais.FlatAppearance.BorderSize = 0;
-            this.btnProfissionais.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnProfissionais.Font = new System.Drawing.Font("Impact", 7.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnProfissionais.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnProfissionais.Location = new System.Drawing.Point(12, 3);
-            this.btnProfissionais.Name = "btnProfissionais";
-            this.btnProfissionais.Size = new System.Drawing.Size(95, 36);
-            this.btnProfissionais.TabIndex = 2;
-            this.btnProfissionais.Text = "Profissionais";
-            this.btnProfissionais.UseVisualStyleBackColor = true;
-            this.btnProfissionais.Click += new System.EventHandler(this.btnPlanos_Click);
+            btnProfissionais.Cursor = Cursors.Hand;
+            btnProfissionais.FlatAppearance.BorderSize = 0;
+            btnProfissionais.FlatStyle = FlatStyle.Popup;
+            btnProfissionais.Font = new Font("Impact", 7.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnProfissionais.ForeColor = SystemColors.ButtonHighlight;
+            btnProfissionais.Location = new Point(12, 4);
+            btnProfissionais.Margin = new Padding(3, 4, 3, 4);
+            btnProfissionais.Name = "btnProfissionais";
+            btnProfissionais.Size = new Size(95, 45);
+            btnProfissionais.TabIndex = 2;
+            btnProfissionais.Text = "Profissionais";
+            btnProfissionais.UseVisualStyleBackColor = true;
+            btnProfissionais.Click += btnPlanos_Click;
             // 
             // pnlBotao2
             // 
-            this.pnlBotao2.Controls.Add(this.pnlBtnProf);
-            this.pnlBotao2.Controls.Add(this.btnAlunos);
-            this.pnlBotao2.Location = new System.Drawing.Point(3, 185);
-            this.pnlBotao2.Name = "pnlBotao2";
-            this.pnlBotao2.Size = new System.Drawing.Size(138, 45);
-            this.pnlBotao2.TabIndex = 2;
+            pnlBotao2.Controls.Add(pnlBtnProf);
+            pnlBotao2.Controls.Add(btnAlunos);
+            pnlBotao2.Location = new Point(3, 231);
+            pnlBotao2.Margin = new Padding(3, 4, 3, 4);
+            pnlBotao2.Name = "pnlBotao2";
+            pnlBotao2.Size = new Size(138, 56);
+            pnlBotao2.TabIndex = 2;
             // 
             // pnlBtnProf
             // 
-            this.pnlBtnProf.BackColor = System.Drawing.Color.Aquamarine;
-            this.pnlBtnProf.Location = new System.Drawing.Point(131, -1);
-            this.pnlBtnProf.Name = "pnlBtnProf";
-            this.pnlBtnProf.Size = new System.Drawing.Size(10, 44);
-            this.pnlBtnProf.TabIndex = 11;
-            this.pnlBtnProf.Visible = false;
+            pnlBtnProf.BackColor = Color.Aquamarine;
+            pnlBtnProf.Location = new Point(131, -1);
+            pnlBtnProf.Margin = new Padding(3, 4, 3, 4);
+            pnlBtnProf.Name = "pnlBtnProf";
+            pnlBtnProf.Size = new Size(10, 55);
+            pnlBtnProf.TabIndex = 11;
+            pnlBtnProf.Visible = false;
             // 
             // btnAlunos
             // 
-            this.btnAlunos.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnAlunos.FlatAppearance.BorderSize = 0;
-            this.btnAlunos.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnAlunos.Font = new System.Drawing.Font("Impact", 13.8F);
-            this.btnAlunos.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnAlunos.Location = new System.Drawing.Point(15, 4);
-            this.btnAlunos.Name = "btnAlunos";
-            this.btnAlunos.Size = new System.Drawing.Size(95, 36);
-            this.btnAlunos.TabIndex = 1;
-            this.btnAlunos.Text = "Alunos";
-            this.btnAlunos.UseVisualStyleBackColor = true;
-            this.btnAlunos.Click += new System.EventHandler(this.btnProfissionais_Click);
+            btnAlunos.Cursor = Cursors.Hand;
+            btnAlunos.FlatAppearance.BorderSize = 0;
+            btnAlunos.FlatStyle = FlatStyle.Popup;
+            btnAlunos.Font = new Font("Impact", 13.8F);
+            btnAlunos.ForeColor = SystemColors.ButtonHighlight;
+            btnAlunos.Location = new Point(15, 5);
+            btnAlunos.Margin = new Padding(3, 4, 3, 4);
+            btnAlunos.Name = "btnAlunos";
+            btnAlunos.Size = new Size(95, 45);
+            btnAlunos.TabIndex = 1;
+            btnAlunos.Text = "Alunos";
+            btnAlunos.UseVisualStyleBackColor = true;
+            btnAlunos.Click += btnProfissionais_Click;
             // 
             // pnlBotao1
             // 
-            this.pnlBotao1.Controls.Add(this.pnlBtnAlunos);
-            this.pnlBotao1.Controls.Add(this.btnPerfil);
-            this.pnlBotao1.Location = new System.Drawing.Point(3, 140);
-            this.pnlBotao1.Name = "pnlBotao1";
-            this.pnlBotao1.Size = new System.Drawing.Size(138, 45);
-            this.pnlBotao1.TabIndex = 1;
+            pnlBotao1.Controls.Add(pnlBtnAlunos);
+            pnlBotao1.Controls.Add(btnPerfil);
+            pnlBotao1.Location = new Point(3, 175);
+            pnlBotao1.Margin = new Padding(3, 4, 3, 4);
+            pnlBotao1.Name = "pnlBotao1";
+            pnlBotao1.Size = new Size(138, 56);
+            pnlBotao1.TabIndex = 1;
             // 
             // pnlBtnAlunos
             // 
-            this.pnlBtnAlunos.BackColor = System.Drawing.Color.Aquamarine;
-            this.pnlBtnAlunos.Location = new System.Drawing.Point(131, 0);
-            this.pnlBtnAlunos.Name = "pnlBtnAlunos";
-            this.pnlBtnAlunos.Size = new System.Drawing.Size(13, 44);
-            this.pnlBtnAlunos.TabIndex = 11;
-            this.pnlBtnAlunos.Visible = false;
+            pnlBtnAlunos.BackColor = Color.Aquamarine;
+            pnlBtnAlunos.Location = new Point(131, 0);
+            pnlBtnAlunos.Margin = new Padding(3, 4, 3, 4);
+            pnlBtnAlunos.Name = "pnlBtnAlunos";
+            pnlBtnAlunos.Size = new Size(13, 55);
+            pnlBtnAlunos.TabIndex = 11;
+            pnlBtnAlunos.Visible = false;
             // 
             // btnPerfil
             // 
-            this.btnPerfil.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnPerfil.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.btnPerfil.FlatAppearance.BorderSize = 0;
-            this.btnPerfil.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnPerfil.Font = new System.Drawing.Font("Impact", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnPerfil.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnPerfil.Location = new System.Drawing.Point(12, 4);
-            this.btnPerfil.Name = "btnPerfil";
-            this.btnPerfil.Size = new System.Drawing.Size(95, 36);
-            this.btnPerfil.TabIndex = 0;
-            this.btnPerfil.Text = "Perfil";
-            this.btnPerfil.UseVisualStyleBackColor = true;
-            this.btnPerfil.Click += new System.EventHandler(this.btnAlunos_Click);
+            btnPerfil.Cursor = Cursors.Hand;
+            btnPerfil.FlatAppearance.BorderColor = Color.White;
+            btnPerfil.FlatAppearance.BorderSize = 0;
+            btnPerfil.FlatStyle = FlatStyle.Popup;
+            btnPerfil.Font = new Font("Impact", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnPerfil.ForeColor = SystemColors.ButtonHighlight;
+            btnPerfil.Location = new Point(12, 5);
+            btnPerfil.Margin = new Padding(3, 4, 3, 4);
+            btnPerfil.Name = "btnPerfil";
+            btnPerfil.Size = new Size(95, 45);
+            btnPerfil.TabIndex = 0;
+            btnPerfil.Text = "Perfil";
+            btnPerfil.UseVisualStyleBackColor = true;
+            btnPerfil.Click += btnAlunos_Click;
             // 
             // pnlLogo
             // 
-            this.pnlLogo.Controls.Add(this.pictureLogo);
-            this.pnlLogo.Location = new System.Drawing.Point(15, 15);
-            this.pnlLogo.Name = "pnlLogo";
-            this.pnlLogo.Size = new System.Drawing.Size(123, 98);
-            this.pnlLogo.TabIndex = 0;
+            pnlLogo.Controls.Add(pictureLogo);
+            pnlLogo.Location = new Point(15, 19);
+            pnlLogo.Margin = new Padding(3, 4, 3, 4);
+            pnlLogo.Name = "pnlLogo";
+            pnlLogo.Size = new Size(123, 122);
+            pnlLogo.TabIndex = 0;
             // 
             // pictureLogo
             // 
-            this.pictureLogo.Image = ((System.Drawing.Image)(resources.GetObject("pictureLogo.Image")));
-            this.pictureLogo.Location = new System.Drawing.Point(13, 3);
-            this.pictureLogo.Name = "pictureLogo";
-            this.pictureLogo.Size = new System.Drawing.Size(95, 95);
-            this.pictureLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureLogo.TabIndex = 0;
-            this.pictureLogo.TabStop = false;
+            pictureLogo.Image = (Image)resources.GetObject("pictureLogo.Image");
+            pictureLogo.Location = new Point(13, 4);
+            pictureLogo.Margin = new Padding(3, 4, 3, 4);
+            pictureLogo.Name = "pictureLogo";
+            pictureLogo.Size = new Size(95, 119);
+            pictureLogo.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureLogo.TabIndex = 0;
+            pictureLogo.TabStop = false;
             // 
             // FormBase
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.ClientSize = new System.Drawing.Size(818, 620);
-            this.Controls.Add(this.pnlnavegacao);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.MinimumSize = new System.Drawing.Size(818, 620);
-            this.Name = "FormBase";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Body Sharp";
-            this.pnlnavegacao.ResumeLayout(false);
-            this.pnlSair.ResumeLayout(false);
-            this.pnlSair.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.pnlBotao4.ResumeLayout(false);
-            this.pnlBotao3.ResumeLayout(false);
-            this.pnlBotao2.ResumeLayout(false);
-            this.pnlBotao1.ResumeLayout(false);
-            this.pnlLogo.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureLogo)).EndInit();
-            this.ResumeLayout(false);
-
+            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.WhiteSmoke;
+            ClientSize = new Size(934, 850);
+            Controls.Add(pnlnavegacao);
+            FormBorderStyle = FormBorderStyle.None;
+            Icon = (Icon)resources.GetObject("$this.Icon");
+            Margin = new Padding(3, 4, 3, 4);
+            MinimumSize = new Size(934, 850);
+            Name = "FormBase";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "Body Sharp";
+            pnlnavegacao.ResumeLayout(false);
+            pnlSair.ResumeLayout(false);
+            pnlSair.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            pnlBotao4.ResumeLayout(false);
+            pnlBotao3.ResumeLayout(false);
+            pnlBotao2.ResumeLayout(false);
+            pnlBotao1.ResumeLayout(false);
+            pnlLogo.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)pictureLogo).EndInit();
+            ResumeLayout(false);
         }
 
         #endregion

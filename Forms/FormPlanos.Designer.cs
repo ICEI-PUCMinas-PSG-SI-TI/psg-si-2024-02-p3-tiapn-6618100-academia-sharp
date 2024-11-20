@@ -28,290 +28,303 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnEditar = new System.Windows.Forms.Button();
-            this.btnCadastrar = new System.Windows.Forms.Button();
-            this.pnlPBasico = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.lblPBasico = new System.Windows.Forms.Label();
-            this.pnlInformacoesPBasico = new System.Windows.Forms.Panel();
-            this.lblInfoBasico = new System.Windows.Forms.Label();
-            this.btnViewPBasico = new System.Windows.Forms.Button();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.pnlPPlus = new System.Windows.Forms.Panel();
-            this.lblPPlus = new System.Windows.Forms.Label();
-            this.pnlInformacoesPPlus = new System.Windows.Forms.Panel();
-            this.btnViewPPlus = new System.Windows.Forms.Button();
-            this.lblInfoPlus = new System.Windows.Forms.Label();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.pnlPMaster = new System.Windows.Forms.Panel();
-            this.lblPMaster = new System.Windows.Forms.Label();
-            this.pnlInformacoesPMaster = new System.Windows.Forms.Panel();
-            this.btnViewPMaster = new System.Windows.Forms.Button();
-            this.lblInfoMaster = new System.Windows.Forms.Label();
-            this.pnlPBasico.SuspendLayout();
-            this.panel2.SuspendLayout();
-            this.pnlInformacoesPBasico.SuspendLayout();
-            this.panel1.SuspendLayout();
-            this.pnlPPlus.SuspendLayout();
-            this.pnlInformacoesPPlus.SuspendLayout();
-            this.panel5.SuspendLayout();
-            this.pnlPMaster.SuspendLayout();
-            this.pnlInformacoesPMaster.SuspendLayout();
-            this.SuspendLayout();
+            btnEditar = new Button();
+            btnCadastrar = new Button();
+            pnlPBasico = new Panel();
+            lblPBasico = new Label();
+            panel2 = new Panel();
+            pnlInformacoesPBasico = new Panel();
+            btnViewPBasico = new Button();
+            lblInfoBasico = new Label();
+            panel1 = new Panel();
+            pnlPPlus = new Panel();
+            lblPPlus = new Label();
+            pnlInformacoesPPlus = new Panel();
+            btnViewPPlus = new Button();
+            lblInfoPlus = new Label();
+            panel5 = new Panel();
+            pnlPMaster = new Panel();
+            lblPMaster = new Label();
+            pnlInformacoesPMaster = new Panel();
+            btnViewPMaster = new Button();
+            lblInfoMaster = new Label();
+            pnlPBasico.SuspendLayout();
+            panel2.SuspendLayout();
+            pnlInformacoesPBasico.SuspendLayout();
+            panel1.SuspendLayout();
+            pnlPPlus.SuspendLayout();
+            pnlInformacoesPPlus.SuspendLayout();
+            panel5.SuspendLayout();
+            pnlPMaster.SuspendLayout();
+            pnlInformacoesPMaster.SuspendLayout();
+            SuspendLayout();
             // 
             // btnEditar
             // 
-            this.btnEditar.BackColor = System.Drawing.Color.Black;
-            this.btnEditar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnEditar.Font = new System.Drawing.Font("Impact", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEditar.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnEditar.Location = new System.Drawing.Point(308, 66);
-            this.btnEditar.Name = "btnEditar";
-            this.btnEditar.Size = new System.Drawing.Size(127, 40);
-            this.btnEditar.TabIndex = 23;
-            this.btnEditar.Text = "Editar";
-            this.btnEditar.UseVisualStyleBackColor = false;
+            btnEditar.BackColor = Color.Black;
+            btnEditar.Cursor = Cursors.Hand;
+            btnEditar.Font = new Font("Impact", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnEditar.ForeColor = SystemColors.ButtonHighlight;
+            btnEditar.Location = new Point(308, 82);
+            btnEditar.Margin = new Padding(3, 4, 3, 4);
+            btnEditar.Name = "btnEditar";
+            btnEditar.Size = new Size(127, 50);
+            btnEditar.TabIndex = 23;
+            btnEditar.Text = "Editar";
+            btnEditar.UseVisualStyleBackColor = false;
             // 
             // btnCadastrar
             // 
-            this.btnCadastrar.BackColor = System.Drawing.Color.Black;
-            this.btnCadastrar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnCadastrar.Font = new System.Drawing.Font("Impact", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCadastrar.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnCadastrar.Location = new System.Drawing.Point(175, 66);
-            this.btnCadastrar.Name = "btnCadastrar";
-            this.btnCadastrar.Size = new System.Drawing.Size(127, 40);
-            this.btnCadastrar.TabIndex = 22;
-            this.btnCadastrar.Text = "Cadastrar";
-            this.btnCadastrar.UseVisualStyleBackColor = false;
+            btnCadastrar.BackColor = Color.Black;
+            btnCadastrar.Cursor = Cursors.Hand;
+            btnCadastrar.Font = new Font("Impact", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnCadastrar.ForeColor = SystemColors.ButtonHighlight;
+            btnCadastrar.Location = new Point(175, 82);
+            btnCadastrar.Margin = new Padding(3, 4, 3, 4);
+            btnCadastrar.Name = "btnCadastrar";
+            btnCadastrar.Size = new Size(127, 50);
+            btnCadastrar.TabIndex = 22;
+            btnCadastrar.Text = "Cadastrar";
+            btnCadastrar.UseVisualStyleBackColor = false;
             // 
             // pnlPBasico
             // 
-            this.pnlPBasico.BackColor = System.Drawing.Color.Turquoise;
-            this.pnlPBasico.Controls.Add(this.lblPBasico);
-            this.pnlPBasico.Font = new System.Drawing.Font("Impact", 10.8F);
-            this.pnlPBasico.Location = new System.Drawing.Point(10, 10);
-            this.pnlPBasico.Name = "pnlPBasico";
-            this.pnlPBasico.Size = new System.Drawing.Size(601, 35);
-            this.pnlPBasico.TabIndex = 0;
-            // 
-            // panel2
-            // 
-            this.panel2.Controls.Add(this.pnlPBasico);
-            this.panel2.Controls.Add(this.pnlInformacoesPBasico);
-            this.panel2.Location = new System.Drawing.Point(175, 124);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(619, 142);
-            this.panel2.TabIndex = 1;
+            pnlPBasico.BackColor = Color.Turquoise;
+            pnlPBasico.Controls.Add(lblPBasico);
+            pnlPBasico.Font = new Font("Impact", 10.8F);
+            pnlPBasico.Location = new Point(10, 12);
+            pnlPBasico.Margin = new Padding(3, 4, 3, 4);
+            pnlPBasico.Name = "pnlPBasico";
+            pnlPBasico.Size = new Size(724, 44);
+            pnlPBasico.TabIndex = 0;
             // 
             // lblPBasico
             // 
-            this.lblPBasico.AutoSize = true;
-            this.lblPBasico.BackColor = System.Drawing.Color.Transparent;
-            this.lblPBasico.Location = new System.Drawing.Point(6, 7);
-            this.lblPBasico.Name = "lblPBasico";
-            this.lblPBasico.Size = new System.Drawing.Size(104, 22);
-            this.lblPBasico.TabIndex = 0;
-            this.lblPBasico.Text = "Plano Básico";
+            lblPBasico.AutoSize = true;
+            lblPBasico.BackColor = Color.Transparent;
+            lblPBasico.Location = new Point(6, 9);
+            lblPBasico.Name = "lblPBasico";
+            lblPBasico.Size = new Size(104, 22);
+            lblPBasico.TabIndex = 0;
+            lblPBasico.Text = "Plano Básico";
+            // 
+            // panel2
+            // 
+            panel2.Controls.Add(pnlPBasico);
+            panel2.Controls.Add(pnlInformacoesPBasico);
+            panel2.Location = new Point(175, 155);
+            panel2.Margin = new Padding(3, 4, 3, 4);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(747, 178);
+            panel2.TabIndex = 1;
             // 
             // pnlInformacoesPBasico
             // 
-            this.pnlInformacoesPBasico.Controls.Add(this.btnViewPBasico);
-            this.pnlInformacoesPBasico.Controls.Add(this.lblInfoBasico);
-            this.pnlInformacoesPBasico.Location = new System.Drawing.Point(10, 44);
-            this.pnlInformacoesPBasico.Name = "pnlInformacoesPBasico";
-            this.pnlInformacoesPBasico.Size = new System.Drawing.Size(601, 79);
-            this.pnlInformacoesPBasico.TabIndex = 1;
-            this.pnlInformacoesPBasico.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlInformacoesPBasico_Paint);
-            // 
-            // lblInfoBasico
-            // 
-            this.lblInfoBasico.AutoSize = true;
-            this.lblInfoBasico.BackColor = System.Drawing.Color.Transparent;
-            this.lblInfoBasico.Font = new System.Drawing.Font("Impact", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblInfoBasico.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.lblInfoBasico.Location = new System.Drawing.Point(17, 18);
-            this.lblInfoBasico.Name = "lblInfoBasico";
-            this.lblInfoBasico.Size = new System.Drawing.Size(200, 37);
-            this.lblInfoBasico.TabIndex = 0;
-            this.lblInfoBasico.Text = "Musculação +1";
+            pnlInformacoesPBasico.Controls.Add(btnViewPBasico);
+            pnlInformacoesPBasico.Controls.Add(lblInfoBasico);
+            pnlInformacoesPBasico.Location = new Point(10, 55);
+            pnlInformacoesPBasico.Margin = new Padding(3, 4, 3, 4);
+            pnlInformacoesPBasico.Name = "pnlInformacoesPBasico";
+            pnlInformacoesPBasico.Size = new Size(724, 99);
+            pnlInformacoesPBasico.TabIndex = 1;
+            pnlInformacoesPBasico.Paint += pnlInformacoesPBasico_Paint;
             // 
             // btnViewPBasico
             // 
-            this.btnViewPBasico.BackColor = System.Drawing.Color.Black;
-            this.btnViewPBasico.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnViewPBasico.Font = new System.Drawing.Font("Impact", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnViewPBasico.ForeColor = System.Drawing.Color.Gainsboro;
-            this.btnViewPBasico.Location = new System.Drawing.Point(458, 19);
-            this.btnViewPBasico.Name = "btnViewPBasico";
-            this.btnViewPBasico.Size = new System.Drawing.Size(127, 40);
-            this.btnViewPBasico.TabIndex = 24;
-            this.btnViewPBasico.Text = "Visualizar";
-            this.btnViewPBasico.UseVisualStyleBackColor = false;
+            btnViewPBasico.BackColor = Color.Black;
+            btnViewPBasico.Cursor = Cursors.Hand;
+            btnViewPBasico.Font = new Font("Impact", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnViewPBasico.ForeColor = Color.Gainsboro;
+            btnViewPBasico.Location = new Point(579, 24);
+            btnViewPBasico.Margin = new Padding(3, 4, 3, 4);
+            btnViewPBasico.Name = "btnViewPBasico";
+            btnViewPBasico.Size = new Size(127, 50);
+            btnViewPBasico.TabIndex = 24;
+            btnViewPBasico.Text = "Visualizar";
+            btnViewPBasico.UseVisualStyleBackColor = false;
+            // 
+            // lblInfoBasico
+            // 
+            lblInfoBasico.AutoSize = true;
+            lblInfoBasico.BackColor = Color.Transparent;
+            lblInfoBasico.Font = new Font("Impact", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lblInfoBasico.ForeColor = SystemColors.ButtonHighlight;
+            lblInfoBasico.Location = new Point(17, 22);
+            lblInfoBasico.Name = "lblInfoBasico";
+            lblInfoBasico.Size = new Size(200, 37);
+            lblInfoBasico.TabIndex = 0;
+            lblInfoBasico.Text = "Musculação +1";
             // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.pnlPPlus);
-            this.panel1.Controls.Add(this.pnlInformacoesPPlus);
-            this.panel1.Location = new System.Drawing.Point(175, 276);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(619, 142);
-            this.panel1.TabIndex = 2;
+            panel1.Controls.Add(pnlPPlus);
+            panel1.Controls.Add(pnlInformacoesPPlus);
+            panel1.Location = new Point(175, 345);
+            panel1.Margin = new Padding(3, 4, 3, 4);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(747, 178);
+            panel1.TabIndex = 2;
             // 
             // pnlPPlus
             // 
-            this.pnlPPlus.BackColor = System.Drawing.Color.Turquoise;
-            this.pnlPPlus.Controls.Add(this.lblPPlus);
-            this.pnlPPlus.Font = new System.Drawing.Font("Impact", 10.8F);
-            this.pnlPPlus.Location = new System.Drawing.Point(10, 10);
-            this.pnlPPlus.Name = "pnlPPlus";
-            this.pnlPPlus.Size = new System.Drawing.Size(601, 35);
-            this.pnlPPlus.TabIndex = 0;
+            pnlPPlus.BackColor = Color.Turquoise;
+            pnlPPlus.Controls.Add(lblPPlus);
+            pnlPPlus.Font = new Font("Impact", 10.8F);
+            pnlPPlus.Location = new Point(10, 12);
+            pnlPPlus.Margin = new Padding(3, 4, 3, 4);
+            pnlPPlus.Name = "pnlPPlus";
+            pnlPPlus.Size = new Size(724, 44);
+            pnlPPlus.TabIndex = 0;
             // 
             // lblPPlus
             // 
-            this.lblPPlus.AutoSize = true;
-            this.lblPPlus.BackColor = System.Drawing.Color.Transparent;
-            this.lblPPlus.Location = new System.Drawing.Point(6, 7);
-            this.lblPPlus.Name = "lblPPlus";
-            this.lblPPlus.Size = new System.Drawing.Size(85, 22);
-            this.lblPPlus.TabIndex = 0;
-            this.lblPPlus.Text = "Plano Plus";
+            lblPPlus.AutoSize = true;
+            lblPPlus.BackColor = Color.Transparent;
+            lblPPlus.Location = new Point(6, 9);
+            lblPPlus.Name = "lblPPlus";
+            lblPPlus.Size = new Size(85, 22);
+            lblPPlus.TabIndex = 0;
+            lblPPlus.Text = "Plano Plus";
             // 
             // pnlInformacoesPPlus
             // 
-            this.pnlInformacoesPPlus.Controls.Add(this.btnViewPPlus);
-            this.pnlInformacoesPPlus.Controls.Add(this.lblInfoPlus);
-            this.pnlInformacoesPPlus.Location = new System.Drawing.Point(10, 44);
-            this.pnlInformacoesPPlus.Name = "pnlInformacoesPPlus";
-            this.pnlInformacoesPPlus.Size = new System.Drawing.Size(601, 79);
-            this.pnlInformacoesPPlus.TabIndex = 1;
-            this.pnlInformacoesPPlus.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlInformacoesPPlus_Paint);
+            pnlInformacoesPPlus.Controls.Add(btnViewPPlus);
+            pnlInformacoesPPlus.Controls.Add(lblInfoPlus);
+            pnlInformacoesPPlus.Location = new Point(10, 55);
+            pnlInformacoesPPlus.Margin = new Padding(3, 4, 3, 4);
+            pnlInformacoesPPlus.Name = "pnlInformacoesPPlus";
+            pnlInformacoesPPlus.Size = new Size(724, 99);
+            pnlInformacoesPPlus.TabIndex = 1;
+            pnlInformacoesPPlus.Paint += pnlInformacoesPPlus_Paint;
             // 
             // btnViewPPlus
             // 
-            this.btnViewPPlus.BackColor = System.Drawing.Color.Black;
-            this.btnViewPPlus.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnViewPPlus.Font = new System.Drawing.Font("Impact", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnViewPPlus.ForeColor = System.Drawing.Color.Gainsboro;
-            this.btnViewPPlus.Location = new System.Drawing.Point(458, 19);
-            this.btnViewPPlus.Name = "btnViewPPlus";
-            this.btnViewPPlus.Size = new System.Drawing.Size(127, 40);
-            this.btnViewPPlus.TabIndex = 24;
-            this.btnViewPPlus.Text = "Visualizar";
-            this.btnViewPPlus.UseVisualStyleBackColor = false;
+            btnViewPPlus.BackColor = Color.Black;
+            btnViewPPlus.Cursor = Cursors.Hand;
+            btnViewPPlus.Font = new Font("Impact", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnViewPPlus.ForeColor = Color.Gainsboro;
+            btnViewPPlus.Location = new Point(579, 21);
+            btnViewPPlus.Margin = new Padding(3, 4, 3, 4);
+            btnViewPPlus.Name = "btnViewPPlus";
+            btnViewPPlus.Size = new Size(127, 50);
+            btnViewPPlus.TabIndex = 24;
+            btnViewPPlus.Text = "Visualizar";
+            btnViewPPlus.UseVisualStyleBackColor = false;
             // 
             // lblInfoPlus
             // 
-            this.lblInfoPlus.AutoSize = true;
-            this.lblInfoPlus.BackColor = System.Drawing.Color.Transparent;
-            this.lblInfoPlus.Font = new System.Drawing.Font("Impact", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblInfoPlus.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.lblInfoPlus.Location = new System.Drawing.Point(17, 18);
-            this.lblInfoPlus.Name = "lblInfoPlus";
-            this.lblInfoPlus.Size = new System.Drawing.Size(204, 37);
-            this.lblInfoPlus.TabIndex = 0;
-            this.lblInfoPlus.Text = "Musculação +2";
+            lblInfoPlus.AutoSize = true;
+            lblInfoPlus.BackColor = Color.Transparent;
+            lblInfoPlus.Font = new Font("Impact", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lblInfoPlus.ForeColor = SystemColors.ButtonHighlight;
+            lblInfoPlus.Location = new Point(17, 22);
+            lblInfoPlus.Name = "lblInfoPlus";
+            lblInfoPlus.Size = new Size(204, 37);
+            lblInfoPlus.TabIndex = 0;
+            lblInfoPlus.Text = "Musculação +2";
             // 
             // panel5
             // 
-            this.panel5.Controls.Add(this.pnlPMaster);
-            this.panel5.Controls.Add(this.pnlInformacoesPMaster);
-            this.panel5.Location = new System.Drawing.Point(175, 437);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(619, 142);
-            this.panel5.TabIndex = 3;
+            panel5.Controls.Add(pnlPMaster);
+            panel5.Controls.Add(pnlInformacoesPMaster);
+            panel5.Location = new Point(175, 546);
+            panel5.Margin = new Padding(3, 4, 3, 4);
+            panel5.Name = "panel5";
+            panel5.Size = new Size(747, 178);
+            panel5.TabIndex = 3;
             // 
             // pnlPMaster
             // 
-            this.pnlPMaster.BackColor = System.Drawing.Color.Turquoise;
-            this.pnlPMaster.Controls.Add(this.lblPMaster);
-            this.pnlPMaster.Font = new System.Drawing.Font("Impact", 10.8F);
-            this.pnlPMaster.Location = new System.Drawing.Point(10, 10);
-            this.pnlPMaster.Name = "pnlPMaster";
-            this.pnlPMaster.Size = new System.Drawing.Size(601, 35);
-            this.pnlPMaster.TabIndex = 0;
+            pnlPMaster.BackColor = Color.Turquoise;
+            pnlPMaster.Controls.Add(lblPMaster);
+            pnlPMaster.Font = new Font("Impact", 10.8F);
+            pnlPMaster.Location = new Point(10, 12);
+            pnlPMaster.Margin = new Padding(3, 4, 3, 4);
+            pnlPMaster.Name = "pnlPMaster";
+            pnlPMaster.Size = new Size(724, 44);
+            pnlPMaster.TabIndex = 0;
             // 
             // lblPMaster
             // 
-            this.lblPMaster.AutoSize = true;
-            this.lblPMaster.BackColor = System.Drawing.Color.Transparent;
-            this.lblPMaster.Location = new System.Drawing.Point(6, 7);
-            this.lblPMaster.Name = "lblPMaster";
-            this.lblPMaster.Size = new System.Drawing.Size(104, 22);
-            this.lblPMaster.TabIndex = 0;
-            this.lblPMaster.Text = "Plano Master";
+            lblPMaster.AutoSize = true;
+            lblPMaster.BackColor = Color.Transparent;
+            lblPMaster.Location = new Point(6, 9);
+            lblPMaster.Name = "lblPMaster";
+            lblPMaster.Size = new Size(104, 22);
+            lblPMaster.TabIndex = 0;
+            lblPMaster.Text = "Plano Master";
             // 
             // pnlInformacoesPMaster
             // 
-            this.pnlInformacoesPMaster.Controls.Add(this.btnViewPMaster);
-            this.pnlInformacoesPMaster.Controls.Add(this.lblInfoMaster);
-            this.pnlInformacoesPMaster.Location = new System.Drawing.Point(10, 44);
-            this.pnlInformacoesPMaster.Name = "pnlInformacoesPMaster";
-            this.pnlInformacoesPMaster.Size = new System.Drawing.Size(601, 79);
-            this.pnlInformacoesPMaster.TabIndex = 1;
-            this.pnlInformacoesPMaster.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlInformacoesPMaster_Paint);
+            pnlInformacoesPMaster.Controls.Add(btnViewPMaster);
+            pnlInformacoesPMaster.Controls.Add(lblInfoMaster);
+            pnlInformacoesPMaster.Location = new Point(10, 55);
+            pnlInformacoesPMaster.Margin = new Padding(3, 4, 3, 4);
+            pnlInformacoesPMaster.Name = "pnlInformacoesPMaster";
+            pnlInformacoesPMaster.Size = new Size(724, 99);
+            pnlInformacoesPMaster.TabIndex = 1;
+            pnlInformacoesPMaster.Paint += pnlInformacoesPMaster_Paint;
             // 
             // btnViewPMaster
             // 
-            this.btnViewPMaster.BackColor = System.Drawing.Color.Black;
-            this.btnViewPMaster.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnViewPMaster.Font = new System.Drawing.Font("Impact", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnViewPMaster.ForeColor = System.Drawing.Color.Gainsboro;
-            this.btnViewPMaster.Location = new System.Drawing.Point(458, 19);
-            this.btnViewPMaster.Name = "btnViewPMaster";
-            this.btnViewPMaster.Size = new System.Drawing.Size(127, 40);
-            this.btnViewPMaster.TabIndex = 24;
-            this.btnViewPMaster.Text = "Visualizar";
-            this.btnViewPMaster.UseVisualStyleBackColor = false;
+            btnViewPMaster.BackColor = Color.Black;
+            btnViewPMaster.Cursor = Cursors.Hand;
+            btnViewPMaster.Font = new Font("Impact", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnViewPMaster.ForeColor = Color.Gainsboro;
+            btnViewPMaster.Location = new Point(579, 21);
+            btnViewPMaster.Margin = new Padding(3, 4, 3, 4);
+            btnViewPMaster.Name = "btnViewPMaster";
+            btnViewPMaster.Size = new Size(127, 50);
+            btnViewPMaster.TabIndex = 24;
+            btnViewPMaster.Text = "Visualizar";
+            btnViewPMaster.UseVisualStyleBackColor = false;
             // 
             // lblInfoMaster
             // 
-            this.lblInfoMaster.AutoSize = true;
-            this.lblInfoMaster.BackColor = System.Drawing.Color.Transparent;
-            this.lblInfoMaster.Font = new System.Drawing.Font("Impact", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblInfoMaster.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.lblInfoMaster.Location = new System.Drawing.Point(17, 18);
-            this.lblInfoMaster.Name = "lblInfoMaster";
-            this.lblInfoMaster.Size = new System.Drawing.Size(205, 37);
-            this.lblInfoMaster.TabIndex = 0;
-            this.lblInfoMaster.Text = "Musculação +3";
+            lblInfoMaster.AutoSize = true;
+            lblInfoMaster.BackColor = Color.Transparent;
+            lblInfoMaster.Font = new Font("Impact", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lblInfoMaster.ForeColor = SystemColors.ButtonHighlight;
+            lblInfoMaster.Location = new Point(17, 22);
+            lblInfoMaster.Name = "lblInfoMaster";
+            lblInfoMaster.Size = new Size(205, 37);
+            lblInfoMaster.TabIndex = 0;
+            lblInfoMaster.Text = "Musculação +3";
             // 
             // FormPlanos
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(818, 620);
-            this.Controls.Add(this.panel5);
-            this.Controls.Add(this.panel1);
-            this.Controls.Add(this.panel2);
-            this.Controls.Add(this.btnEditar);
-            this.Controls.Add(this.btnCadastrar);
-            this.MinimumSize = new System.Drawing.Size(818, 580);
-            this.Name = "FormPlanos";
-            this.Text = "FormPlanos";
-            this.Controls.SetChildIndex(this.btnCadastrar, 0);
-            this.Controls.SetChildIndex(this.btnEditar, 0);
-            this.Controls.SetChildIndex(this.panel2, 0);
-            this.Controls.SetChildIndex(this.panel1, 0);
-            this.Controls.SetChildIndex(this.panel5, 0);
-            this.pnlPBasico.ResumeLayout(false);
-            this.pnlPBasico.PerformLayout();
-            this.panel2.ResumeLayout(false);
-            this.pnlInformacoesPBasico.ResumeLayout(false);
-            this.pnlInformacoesPBasico.PerformLayout();
-            this.panel1.ResumeLayout(false);
-            this.pnlPPlus.ResumeLayout(false);
-            this.pnlPPlus.PerformLayout();
-            this.pnlInformacoesPPlus.ResumeLayout(false);
-            this.pnlInformacoesPPlus.PerformLayout();
-            this.panel5.ResumeLayout(false);
-            this.pnlPMaster.ResumeLayout(false);
-            this.pnlPMaster.PerformLayout();
-            this.pnlInformacoesPMaster.ResumeLayout(false);
-            this.pnlInformacoesPMaster.PerformLayout();
-            this.ResumeLayout(false);
-
+            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(934, 850);
+            Controls.Add(panel5);
+            Controls.Add(panel1);
+            Controls.Add(panel2);
+            Controls.Add(btnEditar);
+            Controls.Add(btnCadastrar);
+            Margin = new Padding(3, 5, 3, 5);
+            Name = "FormPlanos";
+            Text = "FormPlanos";
+            Controls.SetChildIndex(btnCadastrar, 0);
+            Controls.SetChildIndex(btnEditar, 0);
+            Controls.SetChildIndex(panel2, 0);
+            Controls.SetChildIndex(panel1, 0);
+            Controls.SetChildIndex(panel5, 0);
+            pnlPBasico.ResumeLayout(false);
+            pnlPBasico.PerformLayout();
+            panel2.ResumeLayout(false);
+            pnlInformacoesPBasico.ResumeLayout(false);
+            pnlInformacoesPBasico.PerformLayout();
+            panel1.ResumeLayout(false);
+            pnlPPlus.ResumeLayout(false);
+            pnlPPlus.PerformLayout();
+            pnlInformacoesPPlus.ResumeLayout(false);
+            pnlInformacoesPPlus.PerformLayout();
+            panel5.ResumeLayout(false);
+            pnlPMaster.ResumeLayout(false);
+            pnlPMaster.PerformLayout();
+            pnlInformacoesPMaster.ResumeLayout(false);
+            pnlInformacoesPMaster.PerformLayout();
+            ResumeLayout(false);
         }
 
         #endregion

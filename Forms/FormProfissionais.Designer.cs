@@ -28,78 +28,82 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.txtPesquisar = new System.Windows.Forms.TextBox();
-            this.btnEditar = new System.Windows.Forms.Button();
-            this.btnCadastrar = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            this.SuspendLayout();
+            dataGridView1 = new DataGridView();
+            txtPesquisar = new TextBox();
+            btnEditar = new Button();
+            btnCadastrar = new Button();
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
+            SuspendLayout();
             // 
             // dataGridView1
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(175, 167);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(628, 382);
-            this.dataGridView1.TabIndex = 25;
+            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView1.Location = new Point(175, 209);
+            dataGridView1.Margin = new Padding(3, 4, 3, 4);
+            dataGridView1.Name = "dataGridView1";
+            dataGridView1.RowHeadersWidth = 51;
+            dataGridView1.RowTemplate.Height = 24;
+            dataGridView1.Size = new Size(628, 478);
+            dataGridView1.TabIndex = 25;
             // 
             // txtPesquisar
             // 
-            this.txtPesquisar.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.txtPesquisar.Font = new System.Drawing.Font("Impact", 10.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtPesquisar.Location = new System.Drawing.Point(175, 113);
-            this.txtPesquisar.Name = "txtPesquisar";
-            this.txtPesquisar.Size = new System.Drawing.Size(323, 28);
-            this.txtPesquisar.TabIndex = 22;
-            this.txtPesquisar.Text = "Pesquisar...";
+            txtPesquisar.BackColor = SystemColors.ScrollBar;
+            txtPesquisar.Font = new Font("Impact", 10.2F, FontStyle.Italic, GraphicsUnit.Point, 0);
+            txtPesquisar.Location = new Point(175, 141);
+            txtPesquisar.Margin = new Padding(3, 4, 3, 4);
+            txtPesquisar.Name = "txtPesquisar";
+            txtPesquisar.Size = new Size(323, 28);
+            txtPesquisar.TabIndex = 22;
+            txtPesquisar.Text = "Pesquisar...";
             // 
             // btnEditar
             // 
-            this.btnEditar.BackColor = System.Drawing.Color.Black;
-            this.btnEditar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnEditar.Font = new System.Drawing.Font("Impact", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEditar.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnEditar.Location = new System.Drawing.Point(308, 66);
-            this.btnEditar.Name = "btnEditar";
-            this.btnEditar.Size = new System.Drawing.Size(127, 40);
-            this.btnEditar.TabIndex = 21;
-            this.btnEditar.Text = "Editar";
-            this.btnEditar.UseVisualStyleBackColor = false;
+            btnEditar.BackColor = Color.Black;
+            btnEditar.Cursor = Cursors.Hand;
+            btnEditar.Font = new Font("Impact", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnEditar.ForeColor = SystemColors.ButtonHighlight;
+            btnEditar.Location = new Point(308, 82);
+            btnEditar.Margin = new Padding(3, 4, 3, 4);
+            btnEditar.Name = "btnEditar";
+            btnEditar.Size = new Size(127, 50);
+            btnEditar.TabIndex = 21;
+            btnEditar.Text = "Editar";
+            btnEditar.UseVisualStyleBackColor = false;
             // 
             // btnCadastrar
             // 
-            this.btnCadastrar.BackColor = System.Drawing.Color.Black;
-            this.btnCadastrar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnCadastrar.Font = new System.Drawing.Font("Impact", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCadastrar.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnCadastrar.Location = new System.Drawing.Point(175, 66);
-            this.btnCadastrar.Name = "btnCadastrar";
-            this.btnCadastrar.Size = new System.Drawing.Size(127, 40);
-            this.btnCadastrar.TabIndex = 20;
-            this.btnCadastrar.Text = "Cadastrar";
-            this.btnCadastrar.UseVisualStyleBackColor = false;
+            btnCadastrar.BackColor = Color.Black;
+            btnCadastrar.Cursor = Cursors.Hand;
+            btnCadastrar.Font = new Font("Impact", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnCadastrar.ForeColor = SystemColors.ButtonHighlight;
+            btnCadastrar.Location = new Point(175, 82);
+            btnCadastrar.Margin = new Padding(3, 4, 3, 4);
+            btnCadastrar.Name = "btnCadastrar";
+            btnCadastrar.Size = new Size(127, 50);
+            btnCadastrar.TabIndex = 20;
+            btnCadastrar.Text = "Cadastrar";
+            btnCadastrar.UseVisualStyleBackColor = false;
             // 
             // FormProfissionais
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(818, 620);
-            this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.txtPesquisar);
-            this.Controls.Add(this.btnEditar);
-            this.Controls.Add(this.btnCadastrar);
-            this.Name = "FormProfissionais";
-            this.Text = "FormProfissionais";
-            this.Controls.SetChildIndex(this.btnCadastrar, 0);
-            this.Controls.SetChildIndex(this.btnEditar, 0);
-            this.Controls.SetChildIndex(this.txtPesquisar, 0);
-            this.Controls.SetChildIndex(this.dataGridView1, 0);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(934, 850);
+            Controls.Add(dataGridView1);
+            Controls.Add(txtPesquisar);
+            Controls.Add(btnEditar);
+            Controls.Add(btnCadastrar);
+            Margin = new Padding(3, 5, 3, 5);
+            Name = "FormProfissionais";
+            Text = "FormProfissionais";
+            Controls.SetChildIndex(btnCadastrar, 0);
+            Controls.SetChildIndex(btnEditar, 0);
+            Controls.SetChildIndex(txtPesquisar, 0);
+            Controls.SetChildIndex(dataGridView1, 0);
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
