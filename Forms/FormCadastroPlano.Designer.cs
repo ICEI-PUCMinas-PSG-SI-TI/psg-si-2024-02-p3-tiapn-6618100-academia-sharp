@@ -44,13 +44,14 @@
             // 
             // btnEditarPlano
             // 
-            btnEditarPlano.BackColor = Color.Yellow;
+            btnEditarPlano.BackColor = Color.FromArgb(0, 192, 192);
             btnEditarPlano.Cursor = Cursors.Hand;
             btnEditarPlano.Font = new Font("Impact", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
             btnEditarPlano.ForeColor = Color.Black;
-            btnEditarPlano.Location = new Point(220, 334);
+            btnEditarPlano.Location = new Point(59, 149);
+            btnEditarPlano.Margin = new Padding(3, 4, 3, 4);
             btnEditarPlano.Name = "btnEditarPlano";
-            btnEditarPlano.Size = new Size(111, 51);
+            btnEditarPlano.Size = new Size(144, 43);
             btnEditarPlano.TabIndex = 119;
             btnEditarPlano.Text = "Editar um plano";
             btnEditarPlano.UseVisualStyleBackColor = false;
@@ -62,9 +63,10 @@
             btnSalvar.Cursor = Cursors.Hand;
             btnSalvar.Font = new Font("Impact", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
             btnSalvar.ForeColor = SystemColors.ButtonHighlight;
-            btnSalvar.Location = new Point(467, 104);
+            btnSalvar.Location = new Point(299, 214);
+            btnSalvar.Margin = new Padding(3, 4, 3, 4);
             btnSalvar.Name = "btnSalvar";
-            btnSalvar.Size = new Size(111, 38);
+            btnSalvar.Size = new Size(143, 51);
             btnSalvar.TabIndex = 118;
             btnSalvar.Text = "Salvar";
             btnSalvar.UseVisualStyleBackColor = false;
@@ -75,19 +77,17 @@
             label1.AutoSize = true;
             label1.BackColor = Color.Transparent;
             label1.Font = new Font("Impact", 10.8F);
-            label1.Location = new Point(429, 52);
+            label1.Location = new Point(299, 69);
             label1.Name = "label1";
-            label1.Size = new Size(97, 19);
+            label1.Size = new Size(110, 22);
             label1.TabIndex = 115;
             label1.Text = "Tipo do Plano:";
             // 
             // txtValorPlano
             // 
-            txtValorPlano.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
-            txtValorPlano.Location = new Point(220, 73);
-            txtValorPlano.Margin = new Padding(3, 2, 3, 2);
+            txtValorPlano.Location = new Point(60, 94);
             txtValorPlano.Name = "txtValorPlano";
-            txtValorPlano.Size = new Size(149, 23);
+            txtValorPlano.Size = new Size(143, 27);
             txtValorPlano.TabIndex = 102;
             // 
             // lblNome
@@ -95,9 +95,9 @@
             lblNome.AutoSize = true;
             lblNome.BackColor = Color.Transparent;
             lblNome.Font = new Font("Impact", 10.8F);
-            lblNome.Location = new Point(220, 52);
+            lblNome.Location = new Point(60, 69);
             lblNome.Name = "lblNome";
-            lblNome.Size = new Size(83, 19);
+            lblNome.Size = new Size(96, 22);
             lblNome.TabIndex = 105;
             lblNome.Text = "Valor Plano:";
             lblNome.Click += lblNome_Click;
@@ -107,10 +107,9 @@
             panel1.BackColor = Color.Turquoise;
             panel1.Controls.Add(lblSair);
             panel1.Controls.Add(lblTitulo);
-            panel1.Location = new Point(174, 0);
-            panel1.Margin = new Padding(3, 2, 3, 2);
+            panel1.Location = new Point(0, 0);
             panel1.Name = "panel1";
-            panel1.Size = new Size(453, 32);
+            panel1.Size = new Size(518, 43);
             panel1.TabIndex = 101;
             // 
             // lblSair
@@ -119,9 +118,9 @@
             lblSair.BackColor = Color.Transparent;
             lblSair.Font = new Font("Arial", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lblSair.ForeColor = Color.DarkSlateGray;
-            lblSair.Location = new Point(416, 8);
+            lblSair.Location = new Point(475, 11);
             lblSair.Name = "lblSair";
-            lblSair.Size = new Size(18, 18);
+            lblSair.Size = new Size(22, 21);
             lblSair.TabIndex = 2;
             lblSair.Text = "X";
             // 
@@ -130,31 +129,30 @@
             lblTitulo.AutoSize = true;
             lblTitulo.BackColor = Color.Transparent;
             lblTitulo.Font = new Font("Impact", 10.8F);
-            lblTitulo.Location = new Point(11, 8);
+            lblTitulo.Location = new Point(13, 11);
             lblTitulo.Name = "lblTitulo";
-            lblTitulo.Size = new Size(124, 19);
+            lblTitulo.Size = new Size(140, 22);
             lblTitulo.TabIndex = 1;
             lblTitulo.Text = "Cadastro de Plano";
             lblTitulo.Click += lblTitulo_Click;
             // 
             // txtTipoPlano
             // 
-            txtTipoPlano.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
-            txtTipoPlano.Location = new Point(429, 73);
-            txtTipoPlano.Margin = new Padding(3, 2, 3, 2);
+            txtTipoPlano.Location = new Point(299, 94);
             txtTipoPlano.Name = "txtTipoPlano";
-            txtTipoPlano.Size = new Size(149, 23);
+            txtTipoPlano.Size = new Size(143, 27);
             txtTipoPlano.TabIndex = 123;
             // 
             // button1
             // 
-            button1.BackColor = Color.Red;
+            button1.BackColor = Color.FromArgb(0, 64, 64);
             button1.Cursor = Cursors.Hand;
             button1.Font = new Font("Impact", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button1.ForeColor = Color.Black;
-            button1.Location = new Point(467, 334);
+            button1.ForeColor = Color.White;
+            button1.Location = new Point(299, 149);
+            button1.Margin = new Padding(3, 4, 3, 4);
             button1.Name = "button1";
-            button1.Size = new Size(111, 51);
+            button1.Size = new Size(143, 43);
             button1.TabIndex = 124;
             button1.Text = "Excluir um plano";
             button1.UseVisualStyleBackColor = false;
@@ -166,9 +164,10 @@
             btnCancelar.Cursor = Cursors.Hand;
             btnCancelar.Font = new Font("Impact", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
             btnCancelar.ForeColor = SystemColors.ButtonHighlight;
-            btnCancelar.Location = new Point(220, 104);
+            btnCancelar.Location = new Point(60, 214);
+            btnCancelar.Margin = new Padding(3, 4, 3, 4);
             btnCancelar.Name = "btnCancelar";
-            btnCancelar.Size = new Size(111, 38);
+            btnCancelar.Size = new Size(143, 51);
             btnCancelar.TabIndex = 125;
             btnCancelar.Text = "Cancelar";
             btnCancelar.UseVisualStyleBackColor = false;
@@ -176,9 +175,9 @@
             // 
             // FormCadastroPlano
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(512, 301);
             Controls.Add(btnCancelar);
             Controls.Add(button1);
             Controls.Add(txtTipoPlano);
@@ -188,6 +187,8 @@
             Controls.Add(txtValorPlano);
             Controls.Add(lblNome);
             Controls.Add(panel1);
+            FormBorderStyle = FormBorderStyle.None;
+            Margin = new Padding(3, 4, 3, 4);
             Name = "FormCadastroPlano";
             Text = "FormCadastroPlano";
             Load += FormCadastroPlano_Load;

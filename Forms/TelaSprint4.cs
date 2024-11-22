@@ -22,33 +22,51 @@ namespace BodyShape_TI.Forms
         {
         }
 
-        private void OP1_Click(object sender, EventArgs e)
-        {
-            FormCadastroAluno formCadastroAluno = new FormCadastroAluno();
-
-            formCadastroAluno.ShowDialog();
-        }
+        //private void OP1_Click(object sender, EventArgs e)
+        //{
+            //FormCadastroAluno formCadastroAluno = new FormCadastroAluno();
+            //formCadastroAluno.ShowDialog();
+        //}
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-
+            FormCadastroAluno formCadastroAluno = new FormCadastroAluno();
+            formCadastroAluno.ShowDialog();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        //private void button1_Click(object sender, EventArgs e)
+        //{
+        //    if (MessageBox.Show("Deseja realmente cancelar?", "Confirmação", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+        //    {
+        //        this.Close();
+        //    }
+        //}
+
+        //private void OP2_Click(object sender, EventArgs e)
+        //{
+        //    FormCadastroPlano formCadastroPlano = new FormCadastroPlano();
+        //    formCadastroPlano.ShowDialog();
+        //}
+
+        //private void OP3_Click_1(object sender, EventArgs e)
+        //{
+        //    FormCadastroAlunoPlano formCadastroAlunoPlano = new FormCadastroAlunoPlano();
+        //    formCadastroAlunoPlano.ShowDialog();
+        //}
+
+        private void btnCadAluno_Click(object sender, EventArgs e)
         {
-            if (MessageBox.Show("Deseja realmente cancelar?", "Confirmação", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
-            {
-                this.Close();
-            }
+            FormCadastroAluno formCadastroAluno = new FormCadastroAluno();
+            formCadastroAluno.ShowDialog();
         }
 
-        private void OP2_Click(object sender, EventArgs e)
+        private void btnCadPlano_Click(object sender, EventArgs e)
         {
             FormCadastroPlano formCadastroPlano = new FormCadastroPlano();
             formCadastroPlano.ShowDialog();
         }
 
-        private void OP3_Click_1(object sender, EventArgs e)
+        private void btnProfissionais_Click(object sender, EventArgs e)
         {
             FormCadastroAlunoPlano formCadastroAlunoPlano = new FormCadastroAlunoPlano();
             formCadastroAlunoPlano.ShowDialog();
