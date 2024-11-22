@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BodyShape_TI.Forms;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -18,6 +19,13 @@ namespace BS_Projeto
         private void lblSair_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void btnPesquisaEndereco_Click(object sender, EventArgs e)
+        {
+            FormEndereco frmEnd = new FormEndereco();
+            frmEnd.ShowDialog();
+            this.txtEndereco.Text = frmEnd.RetornarEndereco();
         }
     }
 }
