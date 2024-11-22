@@ -68,11 +68,10 @@
             pnlnavegacao.Controls.Add(pnlBotao2);
             pnlnavegacao.Controls.Add(pnlBotao1);
             pnlnavegacao.Controls.Add(pnlLogo);
-            pnlnavegacao.Location = new Point(-3, -4);
-            pnlnavegacao.Margin = new Padding(3, 4, 3, 4);
-            pnlnavegacao.MinimumSize = new Size(141, 855);
+            pnlnavegacao.Location = new Point(-3, -3);
+            pnlnavegacao.MinimumSize = new Size(123, 641);
             pnlnavegacao.Name = "pnlnavegacao";
-            pnlnavegacao.Size = new Size(141, 855);
+            pnlnavegacao.Size = new Size(123, 641);
             pnlnavegacao.TabIndex = 3;
             // 
             // pnlSair
@@ -80,20 +79,18 @@
             pnlSair.Controls.Add(pictureBox1);
             pnlSair.Controls.Add(lblSair);
             pnlSair.Cursor = Cursors.Hand;
-            pnlSair.Location = new Point(9, 766);
-            pnlSair.Margin = new Padding(3, 4, 3, 4);
+            pnlSair.Location = new Point(8, 574);
             pnlSair.Name = "pnlSair";
-            pnlSair.Size = new Size(114, 69);
+            pnlSair.Size = new Size(100, 52);
             pnlSair.TabIndex = 15;
             pnlSair.Click += pnlSair_Click;
             // 
             // pictureBox1
             // 
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(7, 14);
-            pictureBox1.Margin = new Padding(3, 4, 3, 4);
+            pictureBox1.Location = new Point(6, 10);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(44, 41);
+            pictureBox1.Size = new Size(38, 31);
             pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox1.TabIndex = 1;
             pictureBox1.TabStop = false;
@@ -104,9 +101,9 @@
             lblSair.AutoSize = true;
             lblSair.Font = new Font("Impact", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lblSair.ForeColor = SystemColors.Control;
-            lblSair.Location = new Point(47, 12);
+            lblSair.Location = new Point(41, 9);
             lblSair.Name = "lblSair";
-            lblSair.Size = new Size(60, 35);
+            lblSair.Size = new Size(48, 27);
             lblSair.TabIndex = 0;
             lblSair.Text = "Sair";
             lblSair.Click += pnlSair_Click;
@@ -115,19 +112,17 @@
             // 
             pnlBotao4.Controls.Add(pnlBtnAulas);
             pnlBotao4.Controls.Add(btnPlanos);
-            pnlBotao4.Location = new Point(3, 344);
-            pnlBotao4.Margin = new Padding(3, 4, 3, 4);
+            pnlBotao4.Location = new Point(3, 258);
             pnlBotao4.Name = "pnlBotao4";
-            pnlBotao4.Size = new Size(138, 56);
+            pnlBotao4.Size = new Size(121, 42);
             pnlBotao4.TabIndex = 4;
             // 
             // pnlBtnAulas
             // 
             pnlBtnAulas.BackColor = Color.Aquamarine;
-            pnlBtnAulas.Location = new Point(131, 0);
-            pnlBtnAulas.Margin = new Padding(3, 4, 3, 4);
+            pnlBtnAulas.Location = new Point(115, 0);
             pnlBtnAulas.Name = "pnlBtnAulas";
-            pnlBtnAulas.Size = new Size(10, 55);
+            pnlBtnAulas.Size = new Size(9, 41);
             pnlBtnAulas.TabIndex = 10;
             pnlBtnAulas.Visible = false;
             // 
@@ -138,10 +133,9 @@
             btnPlanos.FlatStyle = FlatStyle.Popup;
             btnPlanos.Font = new Font("Impact", 13.8F);
             btnPlanos.ForeColor = SystemColors.ButtonHighlight;
-            btnPlanos.Location = new Point(12, 5);
-            btnPlanos.Margin = new Padding(3, 4, 3, 4);
+            btnPlanos.Location = new Point(10, 4);
             btnPlanos.Name = "btnPlanos";
-            btnPlanos.Size = new Size(95, 45);
+            btnPlanos.Size = new Size(83, 34);
             btnPlanos.TabIndex = 3;
             btnPlanos.Text = "Planos";
             btnPlanos.UseVisualStyleBackColor = true;
@@ -151,19 +145,17 @@
             // 
             pnlBotao3.Controls.Add(pnlBtnPlanos);
             pnlBotao3.Controls.Add(btnProfissionais);
-            pnlBotao3.Location = new Point(3, 288);
-            pnlBotao3.Margin = new Padding(3, 4, 3, 4);
+            pnlBotao3.Location = new Point(3, 216);
             pnlBotao3.Name = "pnlBotao3";
-            pnlBotao3.Size = new Size(138, 56);
+            pnlBotao3.Size = new Size(121, 42);
             pnlBotao3.TabIndex = 3;
             // 
             // pnlBtnPlanos
             // 
             pnlBtnPlanos.BackColor = Color.Aquamarine;
-            pnlBtnPlanos.Location = new Point(131, -1);
-            pnlBtnPlanos.Margin = new Padding(3, 4, 3, 4);
+            pnlBtnPlanos.Location = new Point(115, -1);
             pnlBtnPlanos.Name = "pnlBtnPlanos";
-            pnlBtnPlanos.Size = new Size(10, 55);
+            pnlBtnPlanos.Size = new Size(9, 41);
             pnlBtnPlanos.TabIndex = 12;
             pnlBtnPlanos.Visible = false;
             // 
@@ -174,10 +166,9 @@
             btnProfissionais.FlatStyle = FlatStyle.Popup;
             btnProfissionais.Font = new Font("Impact", 7.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
             btnProfissionais.ForeColor = SystemColors.ButtonHighlight;
-            btnProfissionais.Location = new Point(12, 4);
-            btnProfissionais.Margin = new Padding(3, 4, 3, 4);
+            btnProfissionais.Location = new Point(10, 3);
             btnProfissionais.Name = "btnProfissionais";
-            btnProfissionais.Size = new Size(95, 45);
+            btnProfissionais.Size = new Size(83, 34);
             btnProfissionais.TabIndex = 2;
             btnProfissionais.Text = "Profissionais";
             btnProfissionais.UseVisualStyleBackColor = true;
@@ -187,19 +178,17 @@
             // 
             pnlBotao2.Controls.Add(pnlBtnProf);
             pnlBotao2.Controls.Add(btnAlunos);
-            pnlBotao2.Location = new Point(3, 231);
-            pnlBotao2.Margin = new Padding(3, 4, 3, 4);
+            pnlBotao2.Location = new Point(3, 173);
             pnlBotao2.Name = "pnlBotao2";
-            pnlBotao2.Size = new Size(138, 56);
+            pnlBotao2.Size = new Size(121, 42);
             pnlBotao2.TabIndex = 2;
             // 
             // pnlBtnProf
             // 
             pnlBtnProf.BackColor = Color.Aquamarine;
-            pnlBtnProf.Location = new Point(131, -1);
-            pnlBtnProf.Margin = new Padding(3, 4, 3, 4);
+            pnlBtnProf.Location = new Point(115, -1);
             pnlBtnProf.Name = "pnlBtnProf";
-            pnlBtnProf.Size = new Size(10, 55);
+            pnlBtnProf.Size = new Size(9, 41);
             pnlBtnProf.TabIndex = 11;
             pnlBtnProf.Visible = false;
             // 
@@ -210,10 +199,9 @@
             btnAlunos.FlatStyle = FlatStyle.Popup;
             btnAlunos.Font = new Font("Impact", 13.8F);
             btnAlunos.ForeColor = SystemColors.ButtonHighlight;
-            btnAlunos.Location = new Point(15, 5);
-            btnAlunos.Margin = new Padding(3, 4, 3, 4);
+            btnAlunos.Location = new Point(13, 4);
             btnAlunos.Name = "btnAlunos";
-            btnAlunos.Size = new Size(95, 45);
+            btnAlunos.Size = new Size(83, 34);
             btnAlunos.TabIndex = 1;
             btnAlunos.Text = "Alunos";
             btnAlunos.UseVisualStyleBackColor = true;
@@ -223,19 +211,17 @@
             // 
             pnlBotao1.Controls.Add(pnlBtnAlunos);
             pnlBotao1.Controls.Add(btnPerfil);
-            pnlBotao1.Location = new Point(3, 175);
-            pnlBotao1.Margin = new Padding(3, 4, 3, 4);
+            pnlBotao1.Location = new Point(3, 131);
             pnlBotao1.Name = "pnlBotao1";
-            pnlBotao1.Size = new Size(138, 56);
+            pnlBotao1.Size = new Size(121, 42);
             pnlBotao1.TabIndex = 1;
             // 
             // pnlBtnAlunos
             // 
             pnlBtnAlunos.BackColor = Color.Aquamarine;
-            pnlBtnAlunos.Location = new Point(131, 0);
-            pnlBtnAlunos.Margin = new Padding(3, 4, 3, 4);
+            pnlBtnAlunos.Location = new Point(115, 0);
             pnlBtnAlunos.Name = "pnlBtnAlunos";
-            pnlBtnAlunos.Size = new Size(13, 55);
+            pnlBtnAlunos.Size = new Size(11, 41);
             pnlBtnAlunos.TabIndex = 11;
             pnlBtnAlunos.Visible = false;
             // 
@@ -247,10 +233,9 @@
             btnPerfil.FlatStyle = FlatStyle.Popup;
             btnPerfil.Font = new Font("Impact", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
             btnPerfil.ForeColor = SystemColors.ButtonHighlight;
-            btnPerfil.Location = new Point(12, 5);
-            btnPerfil.Margin = new Padding(3, 4, 3, 4);
+            btnPerfil.Location = new Point(10, 4);
             btnPerfil.Name = "btnPerfil";
-            btnPerfil.Size = new Size(95, 45);
+            btnPerfil.Size = new Size(83, 34);
             btnPerfil.TabIndex = 0;
             btnPerfil.Text = "Perfil";
             btnPerfil.UseVisualStyleBackColor = true;
@@ -259,34 +244,31 @@
             // pnlLogo
             // 
             pnlLogo.Controls.Add(pictureLogo);
-            pnlLogo.Location = new Point(11, 19);
-            pnlLogo.Margin = new Padding(3, 4, 3, 4);
+            pnlLogo.Location = new Point(10, 14);
             pnlLogo.Name = "pnlLogo";
-            pnlLogo.Size = new Size(123, 122);
+            pnlLogo.Size = new Size(108, 92);
             pnlLogo.TabIndex = 0;
             // 
             // pictureLogo
             // 
             pictureLogo.Image = (Image)resources.GetObject("pictureLogo.Image");
-            pictureLogo.Location = new Point(13, 4);
-            pictureLogo.Margin = new Padding(3, 4, 3, 4);
+            pictureLogo.Location = new Point(11, 3);
             pictureLogo.Name = "pictureLogo";
-            pictureLogo.Size = new Size(95, 114);
+            pictureLogo.Size = new Size(83, 86);
             pictureLogo.SizeMode = PictureBoxSizeMode.Zoom;
             pictureLogo.TabIndex = 0;
             pictureLogo.TabStop = false;
             // 
             // FormBase
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.WhiteSmoke;
-            ClientSize = new Size(934, 850);
+            ClientSize = new Size(817, 638);
             Controls.Add(pnlnavegacao);
             FormBorderStyle = FormBorderStyle.None;
             Icon = (Icon)resources.GetObject("$this.Icon");
-            Margin = new Padding(3, 4, 3, 4);
-            MinimumSize = new Size(934, 850);
+            MinimumSize = new Size(817, 638);
             Name = "FormBase";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Body Sharp";
