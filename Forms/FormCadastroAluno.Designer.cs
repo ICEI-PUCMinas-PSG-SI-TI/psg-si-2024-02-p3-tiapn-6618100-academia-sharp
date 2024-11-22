@@ -52,6 +52,9 @@
             maskedTextBox1 = new MaskedTextBox();
             textBox1 = new TextBox();
             lblEndereco = new Label();
+            button2 = new Button();
+            btnAdicionarBioimpedancia = new Button();
+            btnPesquisaEndereco = new Button();
             panel1.SuspendLayout();
             SuspendLayout();
             // 
@@ -94,7 +97,7 @@
             lblNome.AutoSize = true;
             lblNome.BackColor = Color.Transparent;
             lblNome.Font = new Font("Impact", 10.8F);
-            lblNome.Location = new Point(50, 76);
+            lblNome.Location = new Point(50, 115);
             lblNome.Name = "lblNome";
             lblNome.Size = new Size(55, 22);
             lblNome.TabIndex = 3;
@@ -103,26 +106,26 @@
             // txtNome
             // 
             txtNome.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
-            txtNome.Location = new Point(50, 98);
+            txtNome.Location = new Point(50, 137);
             txtNome.Name = "txtNome";
             txtNome.Size = new Size(417, 27);
-            txtNome.TabIndex = 4;
+            txtNome.TabIndex = 1;
             // 
             // txtIdAluno
             // 
             txtIdAluno.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
-            txtIdAluno.Location = new Point(50, 173);
+            txtIdAluno.Location = new Point(50, 212);
             txtIdAluno.Name = "txtIdAluno";
             txtIdAluno.ReadOnly = true;
             txtIdAluno.Size = new Size(417, 27);
-            txtIdAluno.TabIndex = 6;
+            txtIdAluno.TabIndex = 99;
             // 
             // lblIdAluno
             // 
             lblIdAluno.AutoSize = true;
             lblIdAluno.BackColor = Color.Transparent;
             lblIdAluno.Font = new Font("Impact", 10.8F);
-            lblIdAluno.Location = new Point(50, 151);
+            lblIdAluno.Location = new Point(50, 190);
             lblIdAluno.Name = "lblIdAluno";
             lblIdAluno.Size = new Size(73, 22);
             lblIdAluno.TabIndex = 5;
@@ -131,17 +134,17 @@
             // txtEmail
             // 
             txtEmail.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
-            txtEmail.Location = new Point(50, 248);
+            txtEmail.Location = new Point(50, 287);
             txtEmail.Name = "txtEmail";
             txtEmail.Size = new Size(266, 27);
-            txtEmail.TabIndex = 8;
+            txtEmail.TabIndex = 2;
             // 
             // lblEmail
             // 
             lblEmail.AutoSize = true;
             lblEmail.BackColor = Color.Transparent;
             lblEmail.Font = new Font("Impact", 10.8F);
-            lblEmail.Location = new Point(50, 226);
+            lblEmail.Location = new Point(50, 265);
             lblEmail.Name = "lblEmail";
             lblEmail.Size = new Size(53, 22);
             lblEmail.TabIndex = 7;
@@ -152,7 +155,7 @@
             lblTelefone.AutoSize = true;
             lblTelefone.BackColor = Color.Transparent;
             lblTelefone.Font = new Font("Impact", 10.8F);
-            lblTelefone.Location = new Point(340, 226);
+            lblTelefone.Location = new Point(340, 265);
             lblTelefone.Name = "lblTelefone";
             lblTelefone.Size = new Size(76, 22);
             lblTelefone.TabIndex = 9;
@@ -163,7 +166,7 @@
             lblDataNascimento.AutoSize = true;
             lblDataNascimento.BackColor = Color.Transparent;
             lblDataNascimento.Font = new Font("Impact", 10.8F);
-            lblDataNascimento.Location = new Point(50, 376);
+            lblDataNascimento.Location = new Point(50, 415);
             lblDataNascimento.Name = "lblDataNascimento";
             lblDataNascimento.Size = new Size(156, 22);
             lblDataNascimento.TabIndex = 11;
@@ -174,7 +177,7 @@
             lblGenero.AutoSize = true;
             lblGenero.BackColor = Color.Transparent;
             lblGenero.Font = new Font("Impact", 10.8F);
-            lblGenero.Location = new Point(240, 376);
+            lblGenero.Location = new Point(240, 415);
             lblGenero.Name = "lblGenero";
             lblGenero.Size = new Size(66, 22);
             lblGenero.TabIndex = 13;
@@ -182,28 +185,28 @@
             // 
             // txtDataNasc
             // 
-            txtDataNasc.Location = new Point(50, 398);
+            txtDataNasc.Location = new Point(50, 437);
             txtDataNasc.Mask = "00/00/0000";
             txtDataNasc.Name = "txtDataNasc";
             txtDataNasc.Size = new Size(156, 27);
-            txtDataNasc.TabIndex = 15;
+            txtDataNasc.TabIndex = 5;
             txtDataNasc.ValidatingType = typeof(DateTime);
             // 
             // cboxGenero
             // 
             cboxGenero.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             cboxGenero.FormattingEnabled = true;
-            cboxGenero.Location = new Point(240, 397);
+            cboxGenero.Location = new Point(240, 436);
             cboxGenero.Name = "cboxGenero";
             cboxGenero.Size = new Size(227, 28);
-            cboxGenero.TabIndex = 16;
+            cboxGenero.TabIndex = 6;
             // 
             // label1
             // 
             label1.AutoSize = true;
             label1.BackColor = Color.Transparent;
             label1.Font = new Font("Impact", 10.8F);
-            label1.Location = new Point(50, 451);
+            label1.Location = new Point(50, 490);
             label1.Name = "label1";
             label1.Size = new Size(87, 22);
             label1.TabIndex = 17;
@@ -212,7 +215,7 @@
             // txtIDAtendente
             // 
             txtIDAtendente.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
-            txtIDAtendente.Location = new Point(50, 473);
+            txtIDAtendente.Location = new Point(50, 512);
             txtIDAtendente.Name = "txtIDAtendente";
             txtIDAtendente.ReadOnly = true;
             txtIDAtendente.Size = new Size(156, 27);
@@ -223,7 +226,7 @@
             lblPlano.AutoSize = true;
             lblPlano.BackColor = Color.Transparent;
             lblPlano.Font = new Font("Impact", 10.8F);
-            lblPlano.Location = new Point(240, 451);
+            lblPlano.Location = new Point(240, 490);
             lblPlano.Name = "lblPlano";
             lblPlano.Size = new Size(55, 22);
             lblPlano.TabIndex = 19;
@@ -233,10 +236,10 @@
             // 
             cboxPlano.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             cboxPlano.FormattingEnabled = true;
-            cboxPlano.Location = new Point(240, 472);
+            cboxPlano.Location = new Point(240, 511);
             cboxPlano.Name = "cboxPlano";
             cboxPlano.Size = new Size(227, 28);
-            cboxPlano.TabIndex = 20;
+            cboxPlano.TabIndex = 7;
             // 
             // btnCancelar
             // 
@@ -244,7 +247,7 @@
             btnCancelar.Cursor = Cursors.Hand;
             btnCancelar.Font = new Font("Impact", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
             btnCancelar.ForeColor = SystemColors.ButtonHighlight;
-            btnCancelar.Location = new Point(50, 533);
+            btnCancelar.Location = new Point(50, 571);
             btnCancelar.Margin = new Padding(3, 4, 3, 4);
             btnCancelar.Name = "btnCancelar";
             btnCancelar.Size = new Size(127, 50);
@@ -258,7 +261,7 @@
             btnSalvar.Cursor = Cursors.Hand;
             btnSalvar.Font = new Font("Impact", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
             btnSalvar.ForeColor = SystemColors.ButtonHighlight;
-            btnSalvar.Location = new Point(340, 533);
+            btnSalvar.Location = new Point(340, 571);
             btnSalvar.Margin = new Padding(3, 4, 3, 4);
             btnSalvar.Name = "btnSalvar";
             btnSalvar.Size = new Size(127, 50);
@@ -268,36 +271,78 @@
             // 
             // maskedTextBox1
             // 
-            maskedTextBox1.Location = new Point(340, 251);
+            maskedTextBox1.Location = new Point(340, 290);
             maskedTextBox1.Mask = "(99) 99999-9999";
             maskedTextBox1.Name = "maskedTextBox1";
             maskedTextBox1.Size = new Size(117, 27);
-            maskedTextBox1.TabIndex = 23;
+            maskedTextBox1.TabIndex = 3;
             // 
             // textBox1
             // 
             textBox1.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
-            textBox1.Location = new Point(50, 321);
+            textBox1.Location = new Point(50, 360);
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(417, 27);
-            textBox1.TabIndex = 25;
+            textBox1.Size = new Size(384, 27);
+            textBox1.TabIndex = 4;
             // 
             // lblEndereco
             // 
             lblEndereco.AutoSize = true;
             lblEndereco.BackColor = Color.Transparent;
             lblEndereco.Font = new Font("Impact", 10.8F);
-            lblEndereco.Location = new Point(50, 299);
+            lblEndereco.Location = new Point(50, 338);
             lblEndereco.Name = "lblEndereco";
             lblEndereco.Size = new Size(81, 22);
             lblEndereco.TabIndex = 24;
             lblEndereco.Text = "Endereço:";
             // 
+            // button2
+            // 
+            button2.BackColor = Color.Black;
+            button2.Cursor = Cursors.Hand;
+            button2.Font = new Font("Impact", 7.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            button2.ForeColor = SystemColors.ButtonHighlight;
+            button2.Location = new Point(150, 58);
+            button2.Margin = new Padding(3, 4, 3, 4);
+            button2.Name = "button2";
+            button2.Size = new Size(145, 37);
+            button2.TabIndex = 27;
+            button2.Text = "Adicionar ficha";
+            button2.UseVisualStyleBackColor = false;
+            // 
+            // btnAdicionarBioimpedancia
+            // 
+            btnAdicionarBioimpedancia.BackColor = Color.Black;
+            btnAdicionarBioimpedancia.Cursor = Cursors.Hand;
+            btnAdicionarBioimpedancia.Font = new Font("Impact", 7.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnAdicionarBioimpedancia.ForeColor = SystemColors.ButtonHighlight;
+            btnAdicionarBioimpedancia.Location = new Point(301, 58);
+            btnAdicionarBioimpedancia.Margin = new Padding(3, 4, 3, 4);
+            btnAdicionarBioimpedancia.Name = "btnAdicionarBioimpedancia";
+            btnAdicionarBioimpedancia.Size = new Size(166, 37);
+            btnAdicionarBioimpedancia.TabIndex = 26;
+            btnAdicionarBioimpedancia.Text = "Adicionar bioimpedância";
+            btnAdicionarBioimpedancia.UseVisualStyleBackColor = false;
+            // 
+            // btnPesquisaEndereco
+            // 
+            btnPesquisaEndereco.BackColor = Color.Transparent;
+            btnPesquisaEndereco.BackgroundImage = (Image)resources.GetObject("btnPesquisaEndereco.BackgroundImage");
+            btnPesquisaEndereco.BackgroundImageLayout = ImageLayout.Zoom;
+            btnPesquisaEndereco.Location = new Point(440, 360);
+            btnPesquisaEndereco.Name = "btnPesquisaEndereco";
+            btnPesquisaEndereco.Size = new Size(27, 27);
+            btnPesquisaEndereco.TabIndex = 100;
+            btnPesquisaEndereco.UseVisualStyleBackColor = false;
+            // 
             // FormCadastroAluno
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(508, 605);
+            ClientSize = new Size(508, 657);
+            Controls.Add(btnPesquisaEndereco);
+            Controls.Add(button2);
+            Controls.Add(btnAdicionarBioimpedancia);
             Controls.Add(textBox1);
             Controls.Add(lblEndereco);
             Controls.Add(maskedTextBox1);
@@ -357,5 +402,8 @@
         private MaskedTextBox maskedTextBox1;
         private TextBox textBox1;
         private Label lblEndereco;
+        private Button button2;
+        private Button btnAdicionarBioimpedancia;
+        private Button btnPesquisaEndereco;
     }
 }

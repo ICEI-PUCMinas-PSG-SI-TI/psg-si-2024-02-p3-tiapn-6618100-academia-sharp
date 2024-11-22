@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BodyShape_TI;
+using System;
 using System.Collections.Generic;
 using System.Windows.Forms;
 
@@ -14,7 +15,7 @@ namespace BS_Projeto
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormPlanos());
+            Application.Run(new FormCadastroProfissional());
         }
     }
 }

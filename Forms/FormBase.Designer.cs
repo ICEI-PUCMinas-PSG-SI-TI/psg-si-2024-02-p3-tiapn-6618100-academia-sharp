@@ -259,7 +259,7 @@
             // pnlLogo
             // 
             pnlLogo.Controls.Add(pictureLogo);
-            pnlLogo.Location = new Point(15, 19);
+            pnlLogo.Location = new Point(11, 19);
             pnlLogo.Margin = new Padding(3, 4, 3, 4);
             pnlLogo.Name = "pnlLogo";
             pnlLogo.Size = new Size(123, 122);
@@ -271,7 +271,7 @@
             pictureLogo.Location = new Point(13, 4);
             pictureLogo.Margin = new Padding(3, 4, 3, 4);
             pictureLogo.Name = "pictureLogo";
-            pictureLogo.Size = new Size(95, 119);
+            pictureLogo.Size = new Size(95, 114);
             pictureLogo.SizeMode = PictureBoxSizeMode.Zoom;
             pictureLogo.TabIndex = 0;
             pictureLogo.TabStop = false;

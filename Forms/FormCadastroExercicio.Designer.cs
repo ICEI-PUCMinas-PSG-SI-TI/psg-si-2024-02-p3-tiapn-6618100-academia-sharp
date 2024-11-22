@@ -82,7 +82,8 @@
             txtNome.Location = new Point(46, 96);
             txtNome.Name = "txtNome";
             txtNome.Size = new Size(417, 27);
-            txtNome.TabIndex = 29;
+            txtNome.TabIndex = 1;
+            txtNome.Tag = "NomeExercicio";
             // 
             // lblNome
             // 
@@ -101,7 +102,8 @@
             textBox1.Location = new Point(46, 175);
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(175, 27);
-            textBox1.TabIndex = 31;
+            textBox1.TabIndex = 2;
+            textBox1.Tag = "Repeticoes";
             // 
             // lblRepeticao
             // 
@@ -120,7 +122,8 @@
             textBox2.Location = new Point(288, 175);
             textBox2.Name = "textBox2";
             textBox2.Size = new Size(175, 27);
-            textBox2.TabIndex = 33;
+            textBox2.TabIndex = 3;
+            textBox2.Tag = "Intervalo";
             // 
             // lblIntervalo
             // 
@@ -143,7 +146,7 @@
             btnCancelar.Margin = new Padding(3, 4, 3, 4);
             btnCancelar.Name = "btnCancelar";
             btnCancelar.Size = new Size(127, 50);
-            btnCancelar.TabIndex = 49;
+            btnCancelar.TabIndex = 4;
             btnCancelar.Text = "Cancelar";
             btnCancelar.UseVisualStyleBackColor = false;
             // 
@@ -157,7 +160,7 @@
             btnSalvar.Margin = new Padding(3, 4, 3, 4);
             btnSalvar.Name = "btnSalvar";
             btnSalvar.Size = new Size(127, 50);
-            btnSalvar.TabIndex = 48;
+            btnSalvar.TabIndex = 5;
             btnSalvar.Text = "Salvar";
             btnSalvar.UseVisualStyleBackColor = false;
             // 

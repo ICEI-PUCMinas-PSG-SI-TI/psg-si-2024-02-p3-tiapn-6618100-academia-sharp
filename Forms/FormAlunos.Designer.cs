@@ -31,8 +31,6 @@
             btnCadastrar = new Button();
             btnEditar = new Button();
             txtPesquisar = new TextBox();
-            btnAdicionarBioimpedancia = new Button();
-            button2 = new Button();
             dataGridView1 = new DataGridView();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
@@ -72,37 +70,9 @@
             txtPesquisar.Location = new Point(175, 141);
             txtPesquisar.Margin = new Padding(3, 4, 3, 4);
             txtPesquisar.Name = "txtPesquisar";
-            txtPesquisar.Size = new Size(442, 28);
+            txtPesquisar.Size = new Size(484, 28);
             txtPesquisar.TabIndex = 16;
             txtPesquisar.Text = "Pesquisar...";
-            // 
-            // btnAdicionarBioimpedancia
-            // 
-            btnAdicionarBioimpedancia.BackColor = Color.Black;
-            btnAdicionarBioimpedancia.Cursor = Cursors.Hand;
-            btnAdicionarBioimpedancia.Font = new Font("Impact", 7.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnAdicionarBioimpedancia.ForeColor = SystemColors.ButtonHighlight;
-            btnAdicionarBioimpedancia.Location = new Point(623, 132);
-            btnAdicionarBioimpedancia.Margin = new Padding(3, 4, 3, 4);
-            btnAdicionarBioimpedancia.Name = "btnAdicionarBioimpedancia";
-            btnAdicionarBioimpedancia.Size = new Size(166, 50);
-            btnAdicionarBioimpedancia.TabIndex = 17;
-            btnAdicionarBioimpedancia.Text = "Adicionar bioimpedância";
-            btnAdicionarBioimpedancia.UseVisualStyleBackColor = false;
-            // 
-            // button2
-            // 
-            button2.BackColor = Color.Black;
-            button2.Cursor = Cursors.Hand;
-            button2.Font = new Font("Impact", 7.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button2.ForeColor = SystemColors.ButtonHighlight;
-            button2.Location = new Point(795, 132);
-            button2.Margin = new Padding(3, 4, 3, 4);
-            button2.Name = "button2";
-            button2.Size = new Size(127, 50);
-            button2.TabIndex = 18;
-            button2.Text = "Adicionar ficha";
-            button2.UseVisualStyleBackColor = false;
             // 
             // dataGridView1
             // 
@@ -121,8 +91,6 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(934, 850);
             Controls.Add(dataGridView1);
-            Controls.Add(button2);
-            Controls.Add(btnAdicionarBioimpedancia);
             Controls.Add(txtPesquisar);
             Controls.Add(btnEditar);
             Controls.Add(btnCadastrar);
@@ -132,8 +100,6 @@
             Controls.SetChildIndex(btnCadastrar, 0);
             Controls.SetChildIndex(btnEditar, 0);
             Controls.SetChildIndex(txtPesquisar, 0);
-            Controls.SetChildIndex(btnAdicionarBioimpedancia, 0);
-            Controls.SetChildIndex(button2, 0);
             Controls.SetChildIndex(dataGridView1, 0);
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
@@ -145,8 +111,6 @@
         private System.Windows.Forms.Button btnCadastrar;
         private System.Windows.Forms.Button btnEditar;
         private System.Windows.Forms.TextBox txtPesquisar;
-        private System.Windows.Forms.Button btnAdicionarBioimpedancia;
-        private System.Windows.Forms.Button button2;
         private System.Windows.Forms.DataGridView dataGridView1;
     }
 }

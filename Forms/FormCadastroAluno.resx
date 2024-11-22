@@ -118,6 +118,26 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btnPesquisaEndereco.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAANTSURBVHhe7ZrHqhRBFECfAUFMqKgYtqatgopu1G8Q8Sd0a0LRhfoBKn6CYATdC4pLRRGX5oRZ
+        N8aFeg68ARluT3gzVT091IEDw4Su29XdVbduzUShUCgUCoXCkJmOW/AQXsaH+Bl/T+pr37uEB3Ez+pvG
+        swpP4Sv826cv8SSuxMaxGM/hL4xOrh9/4llchI1gD37E6GQG8QPuxpFlJnrVo+CH6Rm0rZFiNl7HKOAU
+        XkPbHAm8Gr2e/F08ittxHc6Z1Ne+52d+J/ptu3bCSNwJ3W77P3gR12Kv+F2nRH8bHbPlaawVB7wosJZP
+        0Pl/qmzFpxgdu+UurAWnJUfmKCi9jUtxUJxSb2DUhjrj+J3sdLr1b+IsHBYey2NGbWn2R8EMryrJ8ZZd
+        gsPGq/wIozZNlrJmjKa3USAOWoM8891wTKgaGE9gFlykvMAoiAuYGhdTUduuN2ZgcrzCUQBemX6muqmy
+        HqP2dRMm5zBGjd/BXNzDKIb9mJwrGDV+BHNxDKMYTLiSY+EiatxUNhc7MYrhASbnE0aNr8ZcONZEMZiY
+        Jadq/p+LubCtKAbzgeRUdcA8zMV8jGL4hsmpegTWYC5cPkcxPMfkVA2COzAXVYOg02NyqjIxixm5OI5R
+        DOcxOdb2o8at5OTiPkYx7MXkuGkRNT4KqfBGTE6nxZBlrNRcxajtxzgNs+COTRSEd4FL1lRsw6hd9dHM
+        hsUHk44okFQFEY/5DKM2f+ByzIrbVVEwmqIkdgujttQCTXYsir7HKCC1KLoMB6VbUfQdLsBacK8uCqql
+        ZfFBxgSf+arbvuVXdGaqDffqosBaOjCaPDl99Yrfrao7RNbaCW5PuU0VBdauqarFDFNZ83lXdepr3/Oz
+        qmpPN2vtBDcqe+2ElNZ+J7hBEQWW09rHBPfqHJmj4AbRY3py0Wft1t4JC9G7oSpZ6keTHOd5iyCeVGM6
+        QVagOzZVa4dOug1metue4TWuE8QFlJsWB9DStdVbK0uW176jHeTo73p+H7qq67SwaWQnDJsNWFWea9dO
+        SLlnWRv93AlfMGfdMhv9dEKOzdta6PVxeItjSy+d8BrHmm6Pw9g+Av9jJzjgtZ+8/0gfy0EwwhM133gz
+        qVc+5+ZtoVAoFAqFxjEx8Q9PYAjsDUcKAwAAAABJRU5ErkJggg==
+</value>
+  </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAABAAEAcWUAAAEAIADMuAAAFgAAACgAAABxAAAAygAAAAEAIAAAAAAAVLIAABMLAAATCwAAAAAAAAAA

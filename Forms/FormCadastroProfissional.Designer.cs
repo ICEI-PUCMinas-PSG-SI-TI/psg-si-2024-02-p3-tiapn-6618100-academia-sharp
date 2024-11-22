@@ -1,6 +1,6 @@
 ﻿namespace BodyShape_TI
 {
-    partial class FomCadastroProfissional
+    partial class FormCadastroProfissional
     {
         /// <summary>
         /// Required designer variable.
@@ -28,10 +28,11 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormCadastroProfissional));
             panel1 = new Panel();
             lblSair = new Label();
             lblTitulo = new Label();
-            textBox1 = new TextBox();
+            txtEndereco = new TextBox();
             lblEndereco = new Label();
             maskedTextBox1 = new MaskedTextBox();
             btnCancelar = new Button();
@@ -49,6 +50,7 @@
             lblIdProfissional = new Label();
             txtNome = new TextBox();
             lblNome = new Label();
+            btnPesquisaEndereco = new Button();
             panel1.SuspendLayout();
             SuspendLayout();
             // 
@@ -86,13 +88,13 @@
             lblTitulo.TabIndex = 1;
             lblTitulo.Text = "Cadastro de Profissional";
             // 
-            // textBox1
+            // txtEndereco
             // 
-            textBox1.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
-            textBox1.Location = new Point(44, 318);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(417, 27);
-            textBox1.TabIndex = 45;
+            txtEndereco.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            txtEndereco.Location = new Point(44, 318);
+            txtEndereco.Name = "txtEndereco";
+            txtEndereco.Size = new Size(384, 27);
+            txtEndereco.TabIndex = 45;
             // 
             // lblEndereco
             // 
@@ -140,6 +142,7 @@
             btnSalvar.TabIndex = 41;
             btnSalvar.Text = "Salvar";
             btnSalvar.UseVisualStyleBackColor = false;
+            btnSalvar.Click += btnSalvar_Click;
             // 
             // cboxSetor
             // 
@@ -270,12 +273,25 @@
             lblNome.TabIndex = 26;
             lblNome.Text = "Nome:";
             // 
+            // btnPesquisaEndereco
+            // 
+            btnPesquisaEndereco.BackColor = Color.Transparent;
+            btnPesquisaEndereco.BackgroundImage = (Image)resources.GetObject("btnPesquisaEndereco.BackgroundImage");
+            btnPesquisaEndereco.BackgroundImageLayout = ImageLayout.Zoom;
+            btnPesquisaEndereco.Location = new Point(434, 318);
+            btnPesquisaEndereco.Name = "btnPesquisaEndereco";
+            btnPesquisaEndereco.Size = new Size(27, 27);
+            btnPesquisaEndereco.TabIndex = 101;
+            btnPesquisaEndereco.UseVisualStyleBackColor = false;
+            btnPesquisaEndereco.Click += btnPesquisaEndereco_Click;
+            // 
             // FomCadastroProfissional
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(508, 605);
-            Controls.Add(textBox1);
+            Controls.Add(btnPesquisaEndereco);
+            Controls.Add(txtEndereco);
             Controls.Add(lblEndereco);
             Controls.Add(maskedTextBox1);
             Controls.Add(btnCancelar);
@@ -308,7 +324,7 @@
         private Panel panel1;
         private Label lblSair;
         private Label lblTitulo;
-        private TextBox textBox1;
+        private TextBox txtEndereco;
         private Label lblEndereco;
         private MaskedTextBox maskedTextBox1;
         private Button btnCancelar;
@@ -326,5 +342,6 @@
         private Label lblIdProfissional;
         private TextBox txtNome;
         private Label lblNome;
+        private Button btnPesquisaEndereco;
     }
 }
