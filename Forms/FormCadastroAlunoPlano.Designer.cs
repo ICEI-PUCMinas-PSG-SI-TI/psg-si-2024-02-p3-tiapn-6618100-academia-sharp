@@ -53,7 +53,7 @@
             btnCancelar.Location = new Point(66, 249);
             btnCancelar.Margin = new Padding(3, 4, 3, 4);
             btnCancelar.Name = "btnCancelar";
-            btnCancelar.Size = new Size(127, 51);
+            btnCancelar.Size = new Size(158, 51);
             btnCancelar.TabIndex = 134;
             btnCancelar.Text = "Cancelar";
             btnCancelar.UseVisualStyleBackColor = false;
@@ -61,10 +61,9 @@
             // 
             // txtAlunoID
             // 
-            txtAlunoID.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             txtAlunoID.Location = new Point(305, 97);
             txtAlunoID.Name = "txtAlunoID";
-            txtAlunoID.Size = new Size(0, 27);
+            txtAlunoID.Size = new Size(170, 27);
             txtAlunoID.TabIndex = 132;
             // 
             // btnSalvar
@@ -73,10 +72,10 @@
             btnSalvar.Cursor = Cursors.Hand;
             btnSalvar.Font = new Font("Impact", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
             btnSalvar.ForeColor = SystemColors.ButtonHighlight;
-            btnSalvar.Location = new Point(348, 249);
+            btnSalvar.Location = new Point(305, 249);
             btnSalvar.Margin = new Padding(3, 4, 3, 4);
             btnSalvar.Name = "btnSalvar";
-            btnSalvar.Size = new Size(127, 51);
+            btnSalvar.Size = new Size(170, 51);
             btnSalvar.TabIndex = 130;
             btnSalvar.Text = "Salvar";
             btnSalvar.UseVisualStyleBackColor = false;
@@ -95,10 +94,9 @@
             // 
             // txtPlanoID
             // 
-            txtPlanoID.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             txtPlanoID.Location = new Point(66, 97);
             txtPlanoID.Name = "txtPlanoID";
-            txtPlanoID.Size = new Size(0, 27);
+            txtPlanoID.Size = new Size(158, 27);
             txtPlanoID.TabIndex = 127;
             // 
             // lblNome
@@ -167,10 +165,10 @@
             // 
             // txtDataFimPlano
             // 
-            txtDataFimPlano.Location = new Point(318, 188);
+            txtDataFimPlano.Location = new Point(305, 188);
             txtDataFimPlano.Mask = "00/00/0000";
             txtDataFimPlano.Name = "txtDataFimPlano";
-            txtDataFimPlano.Size = new Size(156, 27);
+            txtDataFimPlano.Size = new Size(170, 27);
             txtDataFimPlano.TabIndex = 137;
             txtDataFimPlano.ValidatingType = typeof(DateTime);
             // 
@@ -179,7 +177,7 @@
             label2.AutoSize = true;
             label2.BackColor = Color.Transparent;
             label2.Font = new Font("Impact", 10.8F);
-            label2.Location = new Point(318, 160);
+            label2.Location = new Point(305, 160);
             label2.Name = "label2";
             label2.Size = new Size(94, 22);
             label2.TabIndex = 138;
@@ -189,7 +187,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(516, 329);
+            ClientSize = new Size(512, 329);
             Controls.Add(txtDataFimPlano);
             Controls.Add(label2);
             Controls.Add(txtDataInicioPlano);
