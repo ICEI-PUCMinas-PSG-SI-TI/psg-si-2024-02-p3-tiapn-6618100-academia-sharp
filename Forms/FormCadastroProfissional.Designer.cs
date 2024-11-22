@@ -60,9 +60,8 @@
             panel1.Controls.Add(lblSair);
             panel1.Controls.Add(lblTitulo);
             panel1.Location = new Point(-1, -1);
-            panel1.Margin = new Padding(3, 2, 3, 2);
             panel1.Name = "panel1";
-            panel1.Size = new Size(453, 32);
+            panel1.Size = new Size(518, 42);
             panel1.TabIndex = 1;
             // 
             // lblSair
@@ -71,9 +70,9 @@
             lblSair.BackColor = Color.Transparent;
             lblSair.Font = new Font("Arial", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lblSair.ForeColor = Color.DarkSlateGray;
-            lblSair.Location = new Point(416, 8);
+            lblSair.Location = new Point(475, 11);
             lblSair.Name = "lblSair";
-            lblSair.Size = new Size(18, 18);
+            lblSair.Size = new Size(22, 21);
             lblSair.TabIndex = 2;
             lblSair.Text = "X";
             lblSair.Click += lblSair_Click;
@@ -83,19 +82,18 @@
             lblTitulo.AutoSize = true;
             lblTitulo.BackColor = Color.Transparent;
             lblTitulo.Font = new Font("Impact", 10.8F);
-            lblTitulo.Location = new Point(11, 8);
+            lblTitulo.Location = new Point(13, 10);
             lblTitulo.Name = "lblTitulo";
-            lblTitulo.Size = new Size(163, 19);
+            lblTitulo.Size = new Size(186, 22);
             lblTitulo.TabIndex = 1;
             lblTitulo.Text = "Cadastro de Profissional";
             // 
             // txtEndereco
             // 
             txtEndereco.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
-            txtEndereco.Location = new Point(38, 238);
-            txtEndereco.Margin = new Padding(3, 2, 3, 2);
+            txtEndereco.Location = new Point(44, 318);
             txtEndereco.Name = "txtEndereco";
-            txtEndereco.Size = new Size(336, 23);
+            txtEndereco.Size = new Size(384, 27);
             txtEndereco.TabIndex = 45;
             // 
             // lblEndereco
@@ -103,19 +101,18 @@
             lblEndereco.AutoSize = true;
             lblEndereco.BackColor = Color.Transparent;
             lblEndereco.Font = new Font("Impact", 10.8F);
-            lblEndereco.Location = new Point(38, 219);
+            lblEndereco.Location = new Point(44, 292);
             lblEndereco.Name = "lblEndereco";
-            lblEndereco.Size = new Size(70, 19);
+            lblEndereco.Size = new Size(81, 22);
             lblEndereco.TabIndex = 44;
             lblEndereco.Text = "Endereço:";
             // 
             // maskedTextBox1
             // 
-            maskedTextBox1.Location = new Point(292, 186);
-            maskedTextBox1.Margin = new Padding(3, 2, 3, 2);
+            maskedTextBox1.Location = new Point(334, 248);
             maskedTextBox1.Mask = "(99) 99999-9999";
             maskedTextBox1.Name = "maskedTextBox1";
-            maskedTextBox1.Size = new Size(103, 23);
+            maskedTextBox1.Size = new Size(117, 27);
             maskedTextBox1.TabIndex = 43;
             // 
             // btnCancelar
@@ -124,9 +121,10 @@
             btnCancelar.Cursor = Cursors.Hand;
             btnCancelar.Font = new Font("Impact", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
             btnCancelar.ForeColor = SystemColors.ButtonHighlight;
-            btnCancelar.Location = new Point(38, 398);
+            btnCancelar.Location = new Point(44, 530);
+            btnCancelar.Margin = new Padding(3, 4, 3, 4);
             btnCancelar.Name = "btnCancelar";
-            btnCancelar.Size = new Size(111, 38);
+            btnCancelar.Size = new Size(127, 50);
             btnCancelar.TabIndex = 42;
             btnCancelar.Text = "Cancelar";
             btnCancelar.UseVisualStyleBackColor = false;
@@ -137,9 +135,10 @@
             btnSalvar.Cursor = Cursors.Hand;
             btnSalvar.Font = new Font("Impact", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
             btnSalvar.ForeColor = SystemColors.ButtonHighlight;
-            btnSalvar.Location = new Point(292, 398);
+            btnSalvar.Location = new Point(334, 530);
+            btnSalvar.Margin = new Padding(3, 4, 3, 4);
             btnSalvar.Name = "btnSalvar";
-            btnSalvar.Size = new Size(111, 38);
+            btnSalvar.Size = new Size(127, 50);
             btnSalvar.TabIndex = 41;
             btnSalvar.Text = "Salvar";
             btnSalvar.UseVisualStyleBackColor = false;
@@ -149,10 +148,9 @@
             // 
             cboxSetor.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             cboxSetor.FormattingEnabled = true;
-            cboxSetor.Location = new Point(38, 347);
-            cboxSetor.Margin = new Padding(3, 2, 3, 2);
+            cboxSetor.Location = new Point(44, 463);
             cboxSetor.Name = "cboxSetor";
-            cboxSetor.Size = new Size(365, 23);
+            cboxSetor.Size = new Size(417, 28);
             cboxSetor.TabIndex = 40;
             // 
             // lblSetor
@@ -160,31 +158,27 @@
             lblSetor.AutoSize = true;
             lblSetor.BackColor = Color.Transparent;
             lblSetor.Font = new Font("Impact", 10.8F);
-            lblSetor.Location = new Point(38, 328);
+            lblSetor.Location = new Point(44, 438);
             lblSetor.Name = "lblSetor";
-            lblSetor.Size = new Size(46, 19);
+            lblSetor.Size = new Size(52, 22);
             lblSetor.TabIndex = 39;
             lblSetor.Text = "Setor:";
             // 
             // cboxGenero
             // 
             cboxGenero.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
-            cboxGenero.DropDownStyle = ComboBoxStyle.DropDownList;
             cboxGenero.FormattingEnabled = true;
-            cboxGenero.Items.AddRange(new object[] { "Masculino", "Feminino", "Outro" });
-            cboxGenero.Location = new Point(205, 296);
-            cboxGenero.Margin = new Padding(3, 2, 3, 2);
+            cboxGenero.Location = new Point(234, 394);
             cboxGenero.Name = "cboxGenero";
-            cboxGenero.Size = new Size(199, 23);
+            cboxGenero.Size = new Size(227, 28);
             cboxGenero.TabIndex = 36;
             // 
             // txtDataNasc
             // 
-            txtDataNasc.Location = new Point(38, 296);
-            txtDataNasc.Margin = new Padding(3, 2, 3, 2);
+            txtDataNasc.Location = new Point(44, 395);
             txtDataNasc.Mask = "00/00/0000";
             txtDataNasc.Name = "txtDataNasc";
-            txtDataNasc.Size = new Size(137, 23);
+            txtDataNasc.Size = new Size(156, 27);
             txtDataNasc.TabIndex = 35;
             txtDataNasc.ValidatingType = typeof(DateTime);
             // 
@@ -193,9 +187,9 @@
             lblGenero.AutoSize = true;
             lblGenero.BackColor = Color.Transparent;
             lblGenero.Font = new Font("Impact", 10.8F);
-            lblGenero.Location = new Point(205, 274);
+            lblGenero.Location = new Point(234, 365);
             lblGenero.Name = "lblGenero";
-            lblGenero.Size = new Size(57, 19);
+            lblGenero.Size = new Size(66, 22);
             lblGenero.TabIndex = 34;
             lblGenero.Text = "Gênero:";
             // 
@@ -204,9 +198,9 @@
             lblDataNascimento.AutoSize = true;
             lblDataNascimento.BackColor = Color.Transparent;
             lblDataNascimento.Font = new Font("Impact", 10.8F);
-            lblDataNascimento.Location = new Point(38, 274);
+            lblDataNascimento.Location = new Point(44, 365);
             lblDataNascimento.Name = "lblDataNascimento";
-            lblDataNascimento.Size = new Size(138, 19);
+            lblDataNascimento.Size = new Size(156, 22);
             lblDataNascimento.TabIndex = 33;
             lblDataNascimento.Text = "Data de nascimento:";
             // 
@@ -215,19 +209,18 @@
             lblTelefone.AutoSize = true;
             lblTelefone.BackColor = Color.Transparent;
             lblTelefone.Font = new Font("Impact", 10.8F);
-            lblTelefone.Location = new Point(292, 167);
+            lblTelefone.Location = new Point(334, 223);
             lblTelefone.Name = "lblTelefone";
-            lblTelefone.Size = new Size(66, 19);
+            lblTelefone.Size = new Size(76, 22);
             lblTelefone.TabIndex = 32;
             lblTelefone.Text = "Telefone:";
             // 
             // txtEmail
             // 
             txtEmail.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
-            txtEmail.Location = new Point(38, 184);
-            txtEmail.Margin = new Padding(3, 2, 3, 2);
+            txtEmail.Location = new Point(44, 245);
             txtEmail.Name = "txtEmail";
-            txtEmail.Size = new Size(233, 23);
+            txtEmail.Size = new Size(266, 27);
             txtEmail.TabIndex = 31;
             // 
             // lblEmail
@@ -235,20 +228,19 @@
             lblEmail.AutoSize = true;
             lblEmail.BackColor = Color.Transparent;
             lblEmail.Font = new Font("Impact", 10.8F);
-            lblEmail.Location = new Point(38, 164);
+            lblEmail.Location = new Point(44, 219);
             lblEmail.Name = "lblEmail";
-            lblEmail.Size = new Size(46, 19);
+            lblEmail.Size = new Size(53, 22);
             lblEmail.TabIndex = 30;
             lblEmail.Text = "Email:";
             // 
             // tctIdProfissional
             // 
             tctIdProfissional.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
-            tctIdProfissional.Location = new Point(38, 128);
-            tctIdProfissional.Margin = new Padding(3, 2, 3, 2);
+            tctIdProfissional.Location = new Point(44, 170);
             tctIdProfissional.Name = "tctIdProfissional";
             tctIdProfissional.ReadOnly = true;
-            tctIdProfissional.Size = new Size(365, 23);
+            tctIdProfissional.Size = new Size(417, 27);
             tctIdProfissional.TabIndex = 29;
             // 
             // lblIdProfissional
@@ -256,19 +248,18 @@
             lblIdProfissional.AutoSize = true;
             lblIdProfissional.BackColor = Color.Transparent;
             lblIdProfissional.Font = new Font("Impact", 10.8F);
-            lblIdProfissional.Location = new Point(38, 110);
+            lblIdProfissional.Location = new Point(44, 146);
             lblIdProfissional.Name = "lblIdProfissional";
-            lblIdProfissional.Size = new Size(102, 19);
+            lblIdProfissional.Size = new Size(119, 22);
             lblIdProfissional.TabIndex = 28;
             lblIdProfissional.Text = "ID Profissional:";
             // 
             // txtNome
             // 
             txtNome.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
-            txtNome.Location = new Point(38, 71);
-            txtNome.Margin = new Padding(3, 2, 3, 2);
+            txtNome.Location = new Point(44, 95);
             txtNome.Name = "txtNome";
-            txtNome.Size = new Size(365, 23);
+            txtNome.Size = new Size(417, 27);
             txtNome.TabIndex = 27;
             // 
             // lblNome
@@ -276,9 +267,9 @@
             lblNome.AutoSize = true;
             lblNome.BackColor = Color.Transparent;
             lblNome.Font = new Font("Impact", 10.8F);
-            lblNome.Location = new Point(38, 55);
+            lblNome.Location = new Point(44, 73);
             lblNome.Name = "lblNome";
-            lblNome.Size = new Size(48, 19);
+            lblNome.Size = new Size(55, 22);
             lblNome.TabIndex = 26;
             lblNome.Text = "Nome:";
             // 
@@ -287,19 +278,18 @@
             btnPesquisaEndereco.BackColor = Color.Transparent;
             btnPesquisaEndereco.BackgroundImage = (Image)resources.GetObject("btnPesquisaEndereco.BackgroundImage");
             btnPesquisaEndereco.BackgroundImageLayout = ImageLayout.Zoom;
-            btnPesquisaEndereco.Location = new Point(380, 238);
-            btnPesquisaEndereco.Margin = new Padding(3, 2, 3, 2);
+            btnPesquisaEndereco.Location = new Point(434, 318);
             btnPesquisaEndereco.Name = "btnPesquisaEndereco";
-            btnPesquisaEndereco.Size = new Size(24, 20);
+            btnPesquisaEndereco.Size = new Size(27, 27);
             btnPesquisaEndereco.TabIndex = 101;
             btnPesquisaEndereco.UseVisualStyleBackColor = false;
             btnPesquisaEndereco.Click += btnPesquisaEndereco_Click;
             // 
-            // FormCadastroProfissional
+            // FomCadastroProfissional
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(444, 454);
+            ClientSize = new Size(508, 605);
             Controls.Add(btnPesquisaEndereco);
             Controls.Add(txtEndereco);
             Controls.Add(lblEndereco);
@@ -321,8 +311,7 @@
             Controls.Add(lblNome);
             Controls.Add(panel1);
             FormBorderStyle = FormBorderStyle.None;
-            Margin = new Padding(3, 2, 3, 2);
-            Name = "FormCadastroProfissional";
+            Name = "FomCadastroProfissional";
             Text = "FomCadastroProfissional";
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
