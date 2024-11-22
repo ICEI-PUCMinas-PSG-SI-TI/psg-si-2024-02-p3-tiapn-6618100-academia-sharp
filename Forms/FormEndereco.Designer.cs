@@ -42,12 +42,8 @@
             label3 = new Label();
             txtUF = new TextBox();
             label4 = new Label();
-            txtNumero = new TextBox();
-            label5 = new Label();
             btnCancelar = new Button();
             btnSalvar = new Button();
-            txtComplemento = new TextBox();
-            label6 = new Label();
             panel1.SuspendLayout();
             SuspendLayout();
             // 
@@ -124,6 +120,7 @@
             maskedCEP.Name = "maskedCEP";
             maskedCEP.Size = new Size(125, 27);
             maskedCEP.TabIndex = 1;
+            maskedCEP.Leave += maskedCEP_Leave;
             // 
             // btnProcurar
             // 
@@ -160,7 +157,7 @@
             // txtLocalidade
             // 
             txtLocalidade.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
-            txtLocalidade.Location = new Point(22, 371);
+            txtLocalidade.Location = new Point(22, 293);
             txtLocalidade.Name = "txtLocalidade";
             txtLocalidade.ReadOnly = true;
             txtLocalidade.Size = new Size(297, 27);
@@ -171,7 +168,7 @@
             label3.AutoSize = true;
             label3.BackColor = Color.Transparent;
             label3.Font = new Font("Impact", 10.8F);
-            label3.Location = new Point(22, 346);
+            label3.Location = new Point(22, 268);
             label3.Name = "label3";
             label3.Size = new Size(94, 22);
             label3.TabIndex = 43;
@@ -180,7 +177,7 @@
             // txtUF
             // 
             txtUF.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
-            txtUF.Location = new Point(342, 371);
+            txtUF.Location = new Point(342, 293);
             txtUF.Name = "txtUF";
             txtUF.ReadOnly = true;
             txtUF.Size = new Size(99, 27);
@@ -191,30 +188,11 @@
             label4.AutoSize = true;
             label4.BackColor = Color.Transparent;
             label4.Font = new Font("Impact", 10.8F);
-            label4.Location = new Point(342, 346);
+            label4.Location = new Point(342, 268);
             label4.Name = "label4";
             label4.Size = new Size(31, 22);
             label4.TabIndex = 45;
             label4.Text = "UF:";
-            // 
-            // txtNumero
-            // 
-            txtNumero.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
-            txtNumero.Location = new Point(342, 297);
-            txtNumero.Name = "txtNumero";
-            txtNumero.Size = new Size(99, 27);
-            txtNumero.TabIndex = 2;
-            // 
-            // label5
-            // 
-            label5.AutoSize = true;
-            label5.BackColor = Color.Transparent;
-            label5.Font = new Font("Impact", 10.8F);
-            label5.Location = new Point(342, 272);
-            label5.Name = "label5";
-            label5.Size = new Size(70, 22);
-            label5.TabIndex = 47;
-            label5.Text = "Número:";
             // 
             // btnCancelar
             // 
@@ -222,7 +200,7 @@
             btnCancelar.Cursor = Cursors.Hand;
             btnCancelar.Font = new Font("Impact", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
             btnCancelar.ForeColor = SystemColors.ButtonHighlight;
-            btnCancelar.Location = new Point(24, 433);
+            btnCancelar.Location = new Point(24, 355);
             btnCancelar.Margin = new Padding(3, 4, 3, 4);
             btnCancelar.Name = "btnCancelar";
             btnCancelar.Size = new Size(127, 50);
@@ -236,7 +214,7 @@
             btnSalvar.Cursor = Cursors.Hand;
             btnSalvar.Font = new Font("Impact", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
             btnSalvar.ForeColor = SystemColors.ButtonHighlight;
-            btnSalvar.Location = new Point(314, 433);
+            btnSalvar.Location = new Point(314, 355);
             btnSalvar.Margin = new Padding(3, 4, 3, 4);
             btnSalvar.Name = "btnSalvar";
             btnSalvar.Size = new Size(127, 50);
@@ -245,36 +223,13 @@
             btnSalvar.UseVisualStyleBackColor = false;
             btnSalvar.Click += btnSalvar_Click;
             // 
-            // txtComplemento
-            // 
-            txtComplemento.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
-            txtComplemento.Location = new Point(24, 297);
-            txtComplemento.Name = "txtComplemento";
-            txtComplemento.Size = new Size(296, 27);
-            txtComplemento.TabIndex = 748;
-            // 
-            // label6
-            // 
-            label6.AutoSize = true;
-            label6.BackColor = Color.Transparent;
-            label6.Font = new Font("Impact", 10.8F);
-            label6.Location = new Point(25, 272);
-            label6.Name = "label6";
-            label6.Size = new Size(114, 22);
-            label6.TabIndex = 747;
-            label6.Text = "Complemento:";
-            // 
             // FormEndereco
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(461, 519);
-            Controls.Add(txtComplemento);
-            Controls.Add(label6);
+            ClientSize = new Size(461, 433);
             Controls.Add(btnCancelar);
             Controls.Add(btnSalvar);
-            Controls.Add(txtNumero);
-            Controls.Add(label5);
             Controls.Add(txtUF);
             Controls.Add(label4);
             Controls.Add(txtLocalidade);
@@ -312,11 +267,7 @@
         private Label label3;
         private TextBox txtUF;
         private Label label4;
-        private TextBox txtNumero;
-        private Label label5;
         private Button btnCancelar;
         private Button btnSalvar;
-        private TextBox txtComplemento;
-        private Label label6;
     }
 }

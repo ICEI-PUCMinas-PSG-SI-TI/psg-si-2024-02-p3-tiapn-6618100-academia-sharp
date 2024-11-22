@@ -47,8 +47,6 @@ namespace BodyShape_TI.Forms
         public void PreencherCampos(Endereco endereco)
         {
             this.txtLogradouro.Text = endereco.Logradouro;
-            this.txtComplemento.Text = endereco.Complemento;
-            this.txtNumero.Text = endereco.Numero;
             this.txtBairro.Text = endereco.Bairro;
             this.txtLocalidade.Text = endereco.Localidade;
             this.txtUF.Text = endereco.UF;
@@ -58,10 +56,26 @@ namespace BodyShape_TI.Forms
         {
             try
             {
-                string cepSemMascara = maskedCEP.Text.Replace("-", "");
-                endereco = CEPService.BuscarCEPAsync(cepSemMascara).Result;
-                PreencherCampos(endereco);
+                RealizarBusca();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Ocorreu um erro: " + ex.Message, "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+        }
 
+        private void RealizarBusca()
+        {
+            string cepSemMascara = maskedCEP.Text.Replace("-", "");
+            endereco = CEP.BuscarCEP(cepSemMascara);
+            PreencherCampos(endereco);
+        }
+
+        private void maskedCEP_Leave(object sender, EventArgs e)
+        {
+            try
+            {
+                RealizarBusca();
             }
             catch (Exception ex)
             {
