@@ -15,7 +15,7 @@ namespace BodyShape_TI.Forms
 {
     public partial class FormEndereco : Form
     {
-        private Endereco endereco = new Endereco();
+        public Endereco endereco { get; private set; }
 
         public FormEndereco()
         {
@@ -68,6 +68,8 @@ namespace BodyShape_TI.Forms
         {
             string cepSemMascara = maskedCEP.Text.Replace("-", "");
             endereco = CEP.BuscarCEP(cepSemMascara);
+            endereco.Numero = this.txtNumero.Text;
+            endereco.Complemento = this.txtComplemento.Text;
             PreencherCampos(endereco);
         }
 

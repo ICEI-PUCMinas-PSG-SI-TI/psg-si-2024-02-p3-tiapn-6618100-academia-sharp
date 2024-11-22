@@ -42,7 +42,7 @@ namespace BodyShape_TI.Entities
         {
             // Tratar o caso onde complemento pode estar vazio ou nulo
             string complementoInfo = string.IsNullOrWhiteSpace(Complemento) ? "" : $" - {Complemento}";
-            return $"{Logradouro} - {Bairro}, {Localidade}/{UF} ({Cep})";
+            return $"{Logradouro}, nº{Numero}{complementoInfo} - {Bairro}, {Localidade}/{UF} ({Cep})";
         }
         #endregion
     }
