@@ -25,13 +25,6 @@ namespace BodyShape_TI
             this.Close();
         }
 
-        private void btnPesquisaEndereco_Click(object sender, EventArgs e)
-        {
-            FormEndereco frmEnd = new FormEndereco();
-            frmEnd.ShowDialog();
-            this.txtEndereco.Text = frmEnd.RetornarEndereco();
-        }
-
         private void btnSalvar_Click(object sender, EventArgs e)
         {
 

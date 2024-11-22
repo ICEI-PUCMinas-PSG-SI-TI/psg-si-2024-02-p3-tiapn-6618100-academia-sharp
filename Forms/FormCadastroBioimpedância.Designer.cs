@@ -45,8 +45,8 @@
             lblPeso = new Label();
             txtIdEducador = new TextBox();
             lblGordura = new Label();
-            label2 = new Label();
-            textBox1 = new TextBox();
+            lblMassaMagra = new Label();
+            txtMassaMagra = new TextBox();
             panel1.SuspendLayout();
             SuspendLayout();
             // 
@@ -90,7 +90,7 @@
             txtGordura.Location = new Point(40, 226);
             txtGordura.Margin = new Padding(3, 2, 3, 2);
             txtGordura.Name = "txtGordura";
-            txtGordura.Size = new Size(154, 23);
+            txtGordura.Size = new Size(153, 23);
             txtGordura.TabIndex = 45;
             // 
             // lblAltura
@@ -137,7 +137,7 @@
             txtIDAtendente.Margin = new Padding(3, 2, 3, 2);
             txtIDAtendente.Name = "txtIDAtendente";
             txtIDAtendente.ReadOnly = true;
-            txtIDAtendente.Size = new Size(154, 23);
+            txtIDAtendente.Size = new Size(153, 23);
             txtIDAtendente.TabIndex = 38;
             // 
             // label1
@@ -156,7 +156,7 @@
             lblEducadorFisico.AutoSize = true;
             lblEducadorFisico.BackColor = Color.Transparent;
             lblEducadorFisico.Font = new Font("Impact", 10.8F);
-            lblEducadorFisico.Location = new Point(220, 73);
+            lblEducadorFisico.Location = new Point(236, 73);
             lblEducadorFisico.Name = "lblEducadorFisico";
             lblEducadorFisico.Size = new Size(124, 19);
             lblEducadorFisico.TabIndex = 30;
@@ -169,7 +169,7 @@
             txtIdAluno.Margin = new Padding(3, 2, 3, 2);
             txtIdAluno.Name = "txtIdAluno";
             txtIdAluno.ReadOnly = true;
-            txtIdAluno.Size = new Size(154, 23);
+            txtIdAluno.Size = new Size(153, 23);
             txtIdAluno.TabIndex = 29;
             // 
             // lblIdAluno
@@ -190,17 +190,17 @@
             txtAltura.Margin = new Padding(3, 2, 3, 2);
             txtAltura.Mask = "0.00";
             txtAltura.Name = "txtAltura";
-            txtAltura.Size = new Size(154, 23);
+            txtAltura.Size = new Size(153, 23);
             txtAltura.TabIndex = 46;
             // 
             // txtPeso
             // 
             txtPeso.Culture = new System.Globalization.CultureInfo("");
-            txtPeso.Location = new Point(220, 159);
+            txtPeso.Location = new Point(236, 159);
             txtPeso.Margin = new Padding(3, 2, 3, 2);
             txtPeso.Mask = "0.00";
             txtPeso.Name = "txtPeso";
-            txtPeso.Size = new Size(186, 23);
+            txtPeso.Size = new Size(170, 23);
             txtPeso.TabIndex = 48;
             // 
             // lblPeso
@@ -208,7 +208,7 @@
             lblPeso.AutoSize = true;
             lblPeso.BackColor = Color.Transparent;
             lblPeso.Font = new Font("Impact", 10.8F);
-            lblPeso.Location = new Point(220, 140);
+            lblPeso.Location = new Point(236, 140);
             lblPeso.Name = "lblPeso";
             lblPeso.Size = new Size(43, 19);
             lblPeso.TabIndex = 47;
@@ -217,11 +217,11 @@
             // txtIdEducador
             // 
             txtIdEducador.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
-            txtIdEducador.Location = new Point(220, 92);
+            txtIdEducador.Location = new Point(236, 92);
             txtIdEducador.Margin = new Padding(3, 2, 3, 2);
             txtIdEducador.Name = "txtIdEducador";
             txtIdEducador.ReadOnly = true;
-            txtIdEducador.Size = new Size(186, 23);
+            txtIdEducador.Size = new Size(170, 23);
             txtIdEducador.TabIndex = 49;
             // 
             // lblGordura
@@ -235,33 +235,33 @@
             lblGordura.TabIndex = 50;
             lblGordura.Text = "Gordura:";
             // 
-            // label2
+            // lblMassaMagra
             // 
-            label2.AutoSize = true;
-            label2.BackColor = Color.Transparent;
-            label2.Font = new Font("Impact", 10.8F);
-            label2.Location = new Point(220, 207);
-            label2.Name = "label2";
-            label2.Size = new Size(62, 19);
-            label2.TabIndex = 52;
-            label2.Text = "Gordura:";
+            lblMassaMagra.AutoSize = true;
+            lblMassaMagra.BackColor = Color.Transparent;
+            lblMassaMagra.Font = new Font("Impact", 10.8F);
+            lblMassaMagra.Location = new Point(236, 207);
+            lblMassaMagra.Name = "lblMassaMagra";
+            lblMassaMagra.Size = new Size(96, 19);
+            lblMassaMagra.TabIndex = 52;
+            lblMassaMagra.Text = "Massa Magra:";
             // 
-            // textBox1
+            // txtMassaMagra
             // 
-            textBox1.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
-            textBox1.Location = new Point(220, 226);
-            textBox1.Margin = new Padding(3, 2, 3, 2);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(154, 23);
-            textBox1.TabIndex = 51;
+            txtMassaMagra.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            txtMassaMagra.Location = new Point(236, 226);
+            txtMassaMagra.Margin = new Padding(3, 2, 3, 2);
+            txtMassaMagra.Name = "txtMassaMagra";
+            txtMassaMagra.Size = new Size(170, 23);
+            txtMassaMagra.TabIndex = 51;
             // 
             // FormCadastroBioimpedância
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(444, 399);
-            Controls.Add(label2);
-            Controls.Add(textBox1);
+            Controls.Add(lblMassaMagra);
+            Controls.Add(txtMassaMagra);
             Controls.Add(lblGordura);
             Controls.Add(txtIdEducador);
             Controls.Add(txtPeso);
@@ -309,7 +309,7 @@
         private Label lblPeso;
         private TextBox txtIdEducador;
         private Label lblGordura;
-        private Label label2;
-        private TextBox textBox1;
+        private Label lblMassaMagra;
+        private TextBox txtMassaMagra;
     }
 }
